@@ -1,0 +1,707 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.test {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.test .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: -2%;
+}
+
+/* Keep the rest of your CSS unchanged */
+.test .barra-motore-di {
+    position: absolute;
+    width: 1282px;
+    height: 52px;
+    top: 4px;
+    left: 0;
+}
+
+
+.test .text-wrapper {
+    position: absolute;
+    top: 31px;
+    left: 101px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+}
+
+.test .icona-sicurezza {
+    position: absolute;
+    width: 7px;
+    height: 9px;
+    top: 32px;
+    left: 85px;
+}
+
+.test .icona-torna-indietro {
+    position: absolute;
+    width: 4px;
+    height: 7px;
+    top: 34px;
+    left: 13px;
+}
+
+.test .icona-vai-avanti {
+    position: absolute;
+    width: 4px;
+    height: 7px;
+    top: 34px;
+    left: 38px;
+}
+
+.test .icona-ricarica {
+    position: absolute;
+    width: 10px;
+    height: 9px;
+    top: 33px;
+    left: 57px;
+}
+
+.test .finestra {
+    position: absolute;
+    width: 100px;
+    height: 24px;
+    top: 0;
+    left: 1px;
+}
+
+.test .overlap-group-2 {
+    position: relative;
+    width: 98px;
+    height: 24px;
+    background-color: #ffffff;
+    border-radius: 4px 4px 0px 0px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.test .text-wrapper-2 {
+    position: absolute;
+    top: 5px;
+    left: 24px;
+    font-family: "Inter", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 9px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .vector {
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    top: 7px;
+    left: 11px;
+}
+
+.test .icona-ricerca {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 4px;
+    left: 1188px;
+}
+
+.test .icona-riduci {
+    position: absolute;
+    width: 9px;
+    height: 1px;
+    top: 12px;
+    left: 1213px;
+    background-image: url(./img/line-8.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.test .icona-chiudi {
+    position: absolute;
+    width: 7px;
+    height: 8px;
+    top: 5px;
+    left: 1262px;
+}
+
+.test .line-wrapper {
+    position: relative;
+    width: 8px;
+    height: 8px;
+    background-image: url(./img/line-9.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.test .line {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.test .icona-window {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 5px;
+    left: 1238px;
+}
+
+.test .overlap-2 {
+    position: relative;
+    height: 8px;
+}
+
+.test .rectangle {
+    top: 2px;
+    left: 0;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.test .rectangle-2 {
+    top: 0;
+    left: 2px;
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    border: 1px solid;
+    border-color: #000000;
+}
+
+.test .overlap-3 {
+    position: absolute;
+    width: 43px;
+    height: 632px;
+    top: 73px;
+    left: 20px;
+}
+
+.test .nav-bar {
+    position: absolute;
+    width: 43px;
+    height: 632px;
+    top: 0;
+    left: 0;
+}
+
+.test .overlap-4 {
+    position: relative;
+    height: 632px;
+}
+
+.test .background-nav-bar {
+    position: absolute;
+    width: 38px;
+    height: 632px;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a;
+    border-radius: 4px;
+}
+
+.test .bottom-nav-bar {
+    position: absolute;
+    width: 10px;
+    height: 65px;
+    top: 540px;
+    left: 13px;
+}
+
+.test .img {
+    position: absolute;
+    width: 10px;
+    height: 11px;
+    top: 0;
+    left: -1px;
+}
+
+.test .switch-nav-bar {
+    top: 58px;
+    position: absolute;
+    width: 17px;
+    height: 9px;
+    left: -2px;
+}
+
+.test .switch-nav-bar-2 {
+    top: 28px;
+    position: absolute;
+    width: 17px;
+    height: 9px;
+    left: -2px;
+}
+
+.test .separatore-nav-bar {
+    position: absolute;
+    width: 39px;
+    height: 1px;
+    top: 520px;
+    left: 0;
+    object-fit: cover;
+}
+
+.test .top-nav-bar {
+    position: absolute;
+    width: 10px;
+    height: 66px;
+    top: 76px;
+    left: 14px;
+}
+
+.test .icona-home-utente {
+    position: absolute;
+    width: 10px;
+    height: 11px;
+    top: 0;
+    left: 0;
+}
+
+.test .icona-libreria {
+    position: absolute;
+    width: 11px;
+    height: 10px;
+    top: 28px;
+    left: 0;
+}
+
+.test .icona-bacheca {
+    position: absolute;
+    width: 11px;
+    height: 11px;
+    top: 56px;
+    left: 0;
+}
+
+.test .icona-espandi-nav {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    top: 35px;
+    left: 34px;
+}
+
+.test .immagine-profilo {
+    position: absolute;
+    width: 16px;
+    height: 15px;
+    top: 32px;
+    left: 11px;
+    object-fit: cover;
+}
+
+.test .test-svgrepo-com {
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    top: 156px;
+    left: 13px;
+}
+
+.test .overlap-5 {
+    position: absolute;
+    width: 606px;
+    height: 236px;
+    top: 163px;
+    left: 192px;
+}
+
+.test .card-risorsa {
+    position: absolute;
+    width: 216px;
+    height: 236px;
+    top: 0;
+    left: 0;
+}
+
+.test .overlap-6 {
+    position: absolute;
+    width: 712px;
+    height: 236px;
+    top: 0;
+    left: 0;
+    background-color: #f2f2f2;
+    border-radius: 8.09px;
+}
+
+.test .text-wrapper-3 {
+    position: absolute;
+    top: 21px;
+    left: 55px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 8.1px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-4 {
+    position: absolute;
+    top: 33px;
+    left: 55px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 700;
+    color: #1a1a1a;
+    font-size: 10.1px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-5 {
+    position: absolute;
+    top: 25px;
+    left: 113px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #4c4c4c;
+    font-size: 5.1px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .logo-rivista {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 17px;
+    left: 12px;
+    border-radius: 16.17px;
+    border: 2.02px solid;
+    border-color: #4c4c4c;
+}
+
+.test .logo-ieee {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    top: 3px;
+    left: 3px;
+}
+
+.test .backgroung {
+    width: 340px;
+    height: 102px;
+    top: 268px;
+    left: 0;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 8.09px;
+    border: 1px solid black;
+}
+
+.test .backgroung-2 {
+    width: 340px;
+    height: 102px;
+    top: 268px;
+    left: 372px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 8.09px;
+    border: 1px solid black;
+}
+
+.test .backgroung-3 {
+    width: 340px;
+    height: 102px;
+    top: 402px;
+    left: 0;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 8.09px;
+    border: 1px solid black;
+}
+
+.test .backgroung-4 {
+    width: 340px;
+    height: 102px;
+    top: 402px;
+    left: 372px;
+    background-color: #ffffff;
+    position: absolute;
+    border-radius: 8.09px;
+    border: 1px solid black;
+}
+
+.test .p {
+    position: absolute;
+    top: 114px;
+    left: 107px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-6 {
+    position: absolute;
+    top: 128px;
+    left: 192px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 500;
+    color: #1a1a1a;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-7 {
+    position: absolute;
+    top: 471px;
+    left: 348px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .yes-but-only-under {
+    position: absolute;
+    top: 595px;
+    left: 271px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .no-but-only-under {
+    position: absolute;
+    top: 595px;
+    left: 648px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-8 {
+    position: absolute;
+    top: 471px;
+    left: 724px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #1a1a1a;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .overlap-7 {
+    position: absolute;
+    width: 216px;
+    height: 51px;
+    top: 616px;
+    left: 936px;
+    border-radius: 8.09px;
+}
+
+.test .backgroung-5 {
+    width: 216px;
+    height: 51px;
+    top: 0;
+    left: 0;
+    background-color: #1a1a1a;
+    position: absolute;
+    border-radius: 8.09px;
+}
+
+.test .text-wrapper-9 {
+    position: absolute;
+    top: 16px;
+    left: 74px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-10 {
+    position: absolute;
+    top: 128px;
+    left: 936px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 500;
+    color: #1a1a1a;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-11 {
+    position: absolute;
+    top: 229px;
+    left: 936px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 500;
+    color: #1a1a1a;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .text-wrapper-12 {
+    position: absolute;
+    top: 429px;
+    left: 936px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 500;
+    color: #1a1a1a;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .div-wrapper {
+    position: absolute;
+    width: 216px;
+    height: 51px;
+    top: 163px;
+    left: 936px;
+    background-color: #f2f2f2;
+    border-radius: 8.09px;
+}
+
+.test .text-wrapper-13 {
+    top: 14px;
+    left: 84px;
+    position: absolute;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .overlap-8 {
+    position: absolute;
+    width: 216px;
+    height: 51px;
+    top: 264px;
+    left: 936px;
+    background-color: #f2f2f2;
+    border-radius: 8.09px;
+}
+
+.test .text-wrapper-14 {
+    position: absolute;
+    top: 16px;
+    left: 103px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .icona-torna-indietro-2 {
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    top: 22px;
+    left: 88px;
+}
+
+.test .icona-torna-indietro-3 {
+    position: absolute;
+    width: 6px;
+    height: 11px;
+    top: 22px;
+    left: 122px;
+}
+
+.test .overlap-9 {
+    position: absolute;
+    width: 64px;
+    height: 51px;
+    top: 464px;
+    left: 936px;
+    border-radius: 8.09px;
+    border: 1px solid;
+    border-color: #1a1a1a;
+}
+
+.test .text-wrapper-15 {
+    top: 15px;
+    left: 7px;
+    position: absolute;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
+
+.test .overlap-10 {
+    position: absolute;
+    width: 64px;
+    height: 51px;
+    top: 464px;
+    left: 1012px;
+    border-radius: 8.09px;
+    border: 1px solid;
+    border-color: #1a1a1a;
+}
+
+.test .overlap-11 {
+    position: absolute;
+    width: 64px;
+    height: 51px;
+    top: 464px;
+    left: 1088px;
+    border-radius: 8.09px;
+    border: 1px solid;
+    border-color: #1a1a1a;
+}
+
+.test .text-wrapper-16 {
+    position: absolute;
+    top: 15px;
+    left: 21px;
+    font-family: "JetBrains Mono", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+}
