@@ -409,9 +409,10 @@ html, body {
   height: 102px;
   top: 268px;
   left: 0;
-  background-color: #f24876;
+  background-color: #ffffff;
   position: absolute;
   border-radius: 8.09px;
+  border: 1px solid black;
 }
 
 .test .backgroung-2 {
@@ -419,9 +420,10 @@ html, body {
   height: 102px;
   top: 268px;
   left: 372px;
-  background-color: #f4d153;
+  background-color: #ffffff;
   position: absolute;
   border-radius: 8.09px;
+  border: 1px solid black;
 }
 
 .test .backgroung-3 {
@@ -429,9 +431,10 @@ html, body {
   height: 102px;
   top: 402px;
   left: 0;
-  background-color: #60abc7;
+  background-color: #ffffff;
   position: absolute;
   border-radius: 8.09px;
+  border: 1px solid black;
 }
 
 .test .backgroung-4 {
@@ -439,9 +442,10 @@ html, body {
   height: 102px;
   top: 402px;
   left: 372px;
-  background-color: #80c9ac;
+  background-color: #ffffff;
   position: absolute;
   border-radius: 8.09px;
+  border: 1px solid black;
 }
 
 .test .p {
@@ -474,7 +478,7 @@ html, body {
   left: 348px;
   font-family: "JetBrains Mono", Helvetica;
   font-weight: 400;
-  color: #ffffff;
+  color: #1a1a1a;
   font-size: 16px;
   letter-spacing: 0;
   line-height: normal;
@@ -486,7 +490,7 @@ html, body {
   left: 271px;
   font-family: "JetBrains Mono", Helvetica;
   font-weight: 400;
-  color: #ffffff;
+  color: #1a1a1a;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0;
@@ -499,7 +503,7 @@ html, body {
   left: 648px;
   font-family: "JetBrains Mono", Helvetica;
   font-weight: 400;
-  color: #ffffff;
+  color: #1a1a1a;
   font-size: 16px;
   text-align: center;
   letter-spacing: 0;
@@ -512,7 +516,7 @@ html, body {
   left: 724px;
   font-family: "JetBrains Mono", Helvetica;
   font-weight: 400;
-  color: #ffffff;
+  color: #1a1a1a;
   font-size: 16px;
   letter-spacing: 0;
   line-height: normal;
