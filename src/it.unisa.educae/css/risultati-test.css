@@ -1,0 +1,613 @@
+.test {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.test .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height: 720px;
+  position: absolute;
+  top: -2%;
+}
+
+.test .barra-motore-di {
+  position: absolute;
+  width: 1282px;
+  height: 52px;
+  top: 4px;
+  left: 0;
+}
+
+.test .overlap {
+  position: relative;
+  height: 53px;
+  left: -1px;
+}
+
+.test .overlap-group {
+  position: absolute;
+  width: 1282px;
+  height: 53px;
+  top: 0;
+  left: 0;
+}
+
+.test .barra-di-ricerca {
+  position: absolute;
+  width: 1282px;
+  height: 30px;
+  top: 23px;
+  left: 0;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #000000;
+}
+
+.test .text-wrapper {
+  position: absolute;
+  top: 31px;
+  left: 101px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.test .icona-sicurezza {
+  position: absolute;
+  width: 7px;
+  height: 9px;
+  top: 32px;
+  left: 85px;
+}
+
+.test .icona-torna-indietro {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 34px;
+  left: 13px;
+}
+
+.test .icona-vai-avanti {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 34px;
+  left: 38px;
+}
+
+.test .icona-ricarica {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 33px;
+  left: 57px;
+}
+
+.test .finestra {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: 0;
+  left: 1px;
+}
+
+.test .overlap-group-2 {
+  position: relative;
+  width: 98px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.test .text-wrapper-2 {
+  position: absolute;
+  top: 5px;
+  left: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .vector {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 7px;
+  left: 11px;
+}
+
+.test .icona-ricerca {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 1188px;
+}
+
+.test .icona-riduci {
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: 12px;
+  left: 1213px;
+  background-image: url(./img/line-8.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.test .icona-chiudi {
+  position: absolute;
+  width: 7px;
+  height: 8px;
+  top: 5px;
+  left: 1262px;
+}
+
+.test .line-wrapper {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-image: url(./img/line-9.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.test .line {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.test .icona-window {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 5px;
+  left: 1238px;
+}
+
+.test .overlap-2 {
+  position: relative;
+  height: 8px;
+}
+
+.test .rectangle {
+  top: 2px;
+  left: 0;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.test .rectangle-2 {
+  top: 0;
+  left: 2px;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.test .overlap-3 {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 73px;
+  left: 20px;
+}
+
+.test .nav-bar {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 0;
+  left: 0;
+}
+
+.test .overlap-4 {
+  position: relative;
+  height: 632px;
+}
+
+.test .background-nav-bar {
+  position: absolute;
+  width: 38px;
+  height: 632px;
+  top: 0;
+  left: 0;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+}
+
+.test .bottom-nav-bar {
+  position: absolute;
+  width: 10px;
+  height: 65px;
+  top: 540px;
+  left: 13px;
+}
+
+.test .img {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 0;
+  left: -1px;
+}
+
+.test .switch-nav-bar {
+  top: 58px;
+  position: absolute;
+  width: 17px;
+  height: 9px;
+  left: -2px;
+}
+
+.test .switch-nav-bar-2 {
+  top: 28px;
+  position: absolute;
+  width: 17px;
+  height: 9px;
+  left: -2px;
+}
+
+.test .separatore-nav-bar {
+  position: absolute;
+  width: 39px;
+  height: 1px;
+  top: 520px;
+  left: 0;
+  object-fit: cover;
+}
+
+.test .top-nav-bar {
+  position: absolute;
+  width: 16px;
+  height: 66px;
+  top: 76px;
+  left: 11px;
+}
+
+.test .icona-libreria-wrapper {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 25px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.test .icona-libreria {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 3px;
+  left: 3px;
+}
+
+.test .icona-home-utente {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 0;
+  left: 3px;
+}
+
+.test .icona-bacheca {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 56px;
+  left: 3px;
+}
+
+.test .icona-espandi-nav {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 35px;
+  left: 34px;
+}
+
+.test .immagine-profilo {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 32px;
+  left: 11px;
+  object-fit: cover;
+}
+
+.test .test-svgrepo-com {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 156px;
+  left: 13px;
+}
+
+.test .text-wrapper-3 {
+  position: absolute;
+  top: 128px;
+  left: 192px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .overlap-5 {
+  position: absolute;
+  width: 714px;
+  height: 63px;
+  top: 429px;
+  left: 192px;
+}
+
+.test .text-wrapper-4 {
+  position: absolute;
+  top: 42px;
+  left: 156px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .text-wrapper-5 {
+  position: absolute;
+  top: 42px;
+  left: 532px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .group {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 714px;
+  height: 51px;
+}
+
+.test .div-wrapper {
+  position: relative;
+  width: 712px;
+  height: 51px;
+  background-color: #80c9ac;
+  border-radius: 8.09px;
+}
+
+.test .text-wrapper-6 {
+  position: absolute;
+  top: 15px;
+  left: 34px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .overlap-6 {
+  position: absolute;
+  width: 714px;
+  height: 117px;
+  top: 562px;
+  left: 192px;
+}
+
+.test .yes-but-only-under {
+  position: absolute;
+  top: 33px;
+  left: 79px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .overlap-7 {
+  position: relative;
+  width: 712px;
+  height: 51px;
+  background-color: #f24876;
+  border-radius: 8.09px;
+}
+
+.test .overlap-wrapper {
+  top: 66px;
+  left: 0;
+  position: absolute;
+  width: 714px;
+  height: 51px;
+}
+
+.test .text-wrapper-7 {
+  position: absolute;
+  top: 128px;
+  left: 936px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .text-wrapper-8 {
+  top: 345px;
+  position: absolute;
+  left: 936px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .text-wrapper-9 {
+  position: absolute;
+  top: 461px;
+  left: 936px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .text-wrapper-10 {
+  top: 229px;
+  position: absolute;
+  left: 936px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .overlap-8 {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 163px;
+  left: 936px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .text-wrapper-11 {
+  left: 98px;
+  position: absolute;
+  top: 14px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .overlap-9 {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 380px;
+  left: 936px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .text-wrapper-12 {
+  left: 103px;
+  position: absolute;
+  top: 14px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .overlap-10 {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 496px;
+  left: 936px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .overlap-11 {
+  position: absolute;
+  width: 216px;
+  height: 51px;
+  top: 264px;
+  left: 936px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .overlap-group-wrapper {
+  top: 163px;
+  left: 192px;
+  position: absolute;
+  width: 714px;
+  height: 51px;
+}
+
+.test .group-2 {
+  top: 296px;
+  left: 192px;
+  position: absolute;
+  width: 714px;
+  height: 51px;
+}
+
+.test .group-3 {
+  top: 229px;
+  left: 192px;
+  position: absolute;
+  width: 714px;
+  height: 51px;
+}
+
+.test .group-4 {
+  top: 495px;
+  left: 192px;
+  position: absolute;
+  width: 714px;
+  height: 51px;
+}
+
+.test .group-5 {
+  top: 362px;
+  left: 192px;
+  position: absolute;
+  width: 714px;
+  height: 51px;
+}
