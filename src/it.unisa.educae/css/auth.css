@@ -1,0 +1,509 @@
+.form-registrazione {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.form-registrazione .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1280px;
+  height: 720px;
+  position: relative;
+}
+
+.form-registrazione .barra-motore-di {
+  position: absolute;
+  width: 1282px;
+  height: 52px;
+  top: 4px;
+  left: 0;
+}
+
+.form-registrazione .overlap {
+  position: relative;
+  height: 53px;
+  left: -1px;
+}
+
+.form-registrazione .overlap-group {
+  position: absolute;
+  width: 1282px;
+  height: 53px;
+  top: 0;
+  left: 0;
+}
+
+.form-registrazione .barra-di-ricerca {
+  position: absolute;
+  width: 1282px;
+  height: 30px;
+  top: 23px;
+  left: 0;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #000000;
+}
+
+.form-registrazione .text-wrapper {
+  position: absolute;
+  top: 31px;
+  left: 101px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .icona-sicurezza {
+  position: absolute;
+  width: 7px;
+  height: 9px;
+  top: 32px;
+  left: 85px;
+}
+
+.form-registrazione .icona-torna-indietro {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 34px;
+  left: 13px;
+}
+
+.form-registrazione .icona-vai-avanti {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 34px;
+  left: 38px;
+}
+
+.form-registrazione .icona-ricarica {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 33px;
+  left: 57px;
+}
+
+.form-registrazione .finestra {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: 0;
+  left: 1px;
+}
+
+.form-registrazione .overlap-group-2 {
+  position: relative;
+  width: 98px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.form-registrazione .text-wrapper-2 {
+  position: absolute;
+  top: 5px;
+  left: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form-registrazione .vector {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 7px;
+  left: 11px;
+}
+
+.form-registrazione .icona-ricerca {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 1188px;
+}
+
+.form-registrazione .icona-riduci {
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: 12px;
+  left: 1213px;
+  background-image: url(./img/line-8.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.form-registrazione .icona-chiudi {
+  position: absolute;
+  width: 7px;
+  height: 8px;
+  top: 5px;
+  left: 1262px;
+}
+
+.form-registrazione .line-wrapper {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-image: url(./img/line-9.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.form-registrazione .line {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.form-registrazione .icona-window {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 5px;
+  left: 1238px;
+}
+
+.form-registrazione .overlap-2 {
+  position: relative;
+  height: 8px;
+}
+
+.form-registrazione .rectangle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 2px;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.form-registrazione .rectangle-2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 2px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.form-registrazione .logo {
+  position: absolute;
+  width: 74px;
+  height: 66px;
+  top: 92px;
+  left: 604px;
+}
+
+.form-registrazione .text-wrapper-3 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form-registrazione .img {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  top: -1px;
+  left: 19px;
+}
+
+.form-registrazione .registrazione {
+  position: absolute;
+  width: 108px;
+  height: 17px;
+  top: 167px;
+  left: 586px;
+}
+
+.form-registrazione .group {
+  position: absolute;
+  width: 431px;
+  height: 221px;
+  top: 260px;
+  left: 435px;
+}
+
+.form-registrazione .group-2 {
+  position: absolute;
+  width: 441px;
+  height: 145px;
+  top: 0;
+  left: 0;
+}
+
+.form-registrazione .text-wrapper-4 {
+  position: absolute;
+  width: 81px;
+  top: 0;
+  left: 217px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .text-wrapper-5 {
+  position: absolute;
+  width: 81px;
+  top: 0;
+  left: 1px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .text-wrapper-6 {
+  position: absolute;
+  width: 47px;
+  top: 52px;
+  left: 1px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .text-wrapper-7 {
+  width: 111px;
+  top: 52px;
+  position: absolute;
+  left: 217px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .text-wrapper-8 {
+  position: absolute;
+  width: 85px;
+  top: 103px;
+  left: 1px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .text-wrapper-9 {
+  width: 145px;
+  top: 103px;
+  position: absolute;
+  left: 217px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .rectangle-3 {
+  position: absolute;
+  width: 211px;
+  height: 23px;
+  top: 21px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.form-registrazione .rectangle-4 {
+  position: absolute;
+  width: 211px;
+  height: 23px;
+  top: 19px;
+  left: 217px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.form-registrazione .rectangle-5 {
+  position: absolute;
+  width: 211px;
+  height: 23px;
+  top: 71px;
+  left: 1px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.form-registrazione .rectangle-6 {
+  position: absolute;
+  width: 211px;
+  height: 23px;
+  top: 71px;
+  left: 218px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.form-registrazione .rectangle-7 {
+  position: absolute;
+  width: 211px;
+  height: 23px;
+  top: 121px;
+  left: 1px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.form-registrazione .rectangle-8 {
+  position: absolute;
+  width: 211px;
+  height: 23px;
+  top: 122px;
+  left: 217px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.form-registrazione .frame {
+  display: flex;
+  width: 212px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 32px 16px 35px;
+  position: absolute;
+  top: 187px;
+  left: 105px;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.form-registrazione .text-wrapper-10 {
+  position: relative;
+  width: fit-content;
+  margin-top: -9.06px;
+  margin-bottom: -7.06px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #e5e5e5;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.form-registrazione .hai-gi-un-account {
+  position: absolute;
+  width: 237px;
+  top: 159px;
+  left: 94px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .span {
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 14px;
+  letter-spacing: 0;
+}
+
+.form-registrazione .text-wrapper-11 {
+  text-decoration: underline;
+}
+
+.form-registrazione .tasto-leggi {
+  position: absolute;
+  width: 103px;
+  height: 36px;
+  top: 60px;
+  left: 16px;
+  background-color: #E5E5E5;
+  background-size: 100% 100%;
+}
+
+.form-registrazione .leggi {
+  position: relative;
+  width: 87px;
+  height: 14px;
+  top: 8px;
+  left: 7px;
+}
+
+.form-registrazione .text-wrapper-12 {
+  position: absolute;
+  width: 69px;
+  top: 0;
+  left: 16px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.form-registrazione .group-3 {
+  position: absolute;
+  width: 4px;
+  height: 8px;
+  top: 6px;
+  left: 0;
+}
