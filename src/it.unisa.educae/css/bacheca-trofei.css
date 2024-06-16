@@ -1,0 +1,255 @@
+.bacheca {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.bacheca .div {
+  background-color: #ffffff;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2%;
+}
+
+.bacheca .card-risorsa {
+  top: 163px;
+  left: 192px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.bacheca .text-wrapper {
+  position: absolute;
+  top: 205px;
+  left: 14px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bacheca .logo-rivista {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 17px;
+  left: 12px;
+  border-radius: 16.17px;
+  border: 2.02px solid;
+  border-color: #4c4c4c;
+}
+
+.bacheca .logo-ieee {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 3px;
+  left: 3px;
+}
+
+.bacheca .trofeo {
+  position: absolute;
+  width: 87px;
+  height: 112px;
+  top: 71px;
+  left: 64px;
+}
+
+.bacheca .text-wrapper-2 {
+  position: absolute;
+  top: 21px;
+  left: 55px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 8.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bacheca .text-wrapper-3 {
+  position: absolute;
+  top: 32px;
+  left: 55px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 10.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bacheca .card-risorsa-2 {
+  top: 418px;
+  left: 192px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.bacheca .card-risorsa-3 {
+  top: 163px;
+  left: 440px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.bacheca .card-risorsa-4 {
+  top: 163px;
+  left: 688px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.bacheca .card-risorsa-5 {
+  top: 163px;
+  left: 936px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.bacheca .text-wrapper-4 {
+  position: absolute;
+  top: 128px;
+  left: 192px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.bacheca .overlap {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 73px;
+  left: 20px;
+}
+
+.bacheca .nav-bar {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 0;
+  left: 0;
+}
+
+.bacheca .overlap-group {
+  position: relative;
+  height: 632px;
+}
+
+.bacheca .background-nav-bar {
+  position: absolute;
+  width: 38px;
+  height: 632px;
+  top: 0;
+  left: 0;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+}
+
+.bacheca .bottom-nav-bar {
+  position: absolute;
+  width: 17px;
+  height: 68px;
+  top: 539px;
+  left: 10px;
+}
+
+.bacheca .separatore-nav-bar {
+  position: absolute;
+  width: 39px;
+  height: 1px;
+  top: 520px;
+  left: 0;
+  object-fit: cover;
+}
+
+.bacheca .top-nav-bar {
+  position: absolute;
+  width: 16px;
+  height: 69px;
+  top: 76px;
+  left: 11px;
+}
+
+.bacheca .icona-bacheca-wrapper {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 53px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.bacheca .icona-bacheca {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 3px;
+  left: 3px;
+}
+
+.bacheca .icona-home-utente {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 0;
+  left: 3px;
+}
+
+.bacheca .icona-libreria {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 28px;
+  left: 3px;
+}
+
+.bacheca .icona-espandi-nav {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 35px;
+  left: 34px;
+}
+
+.bacheca .immagine-profilo {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 32px;
+  left: 11px;
+  object-fit: cover;
+}
+
+.bacheca .test-svgrepo-com {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 156px;
+  left: 13px;
+}
