@@ -10,7 +10,7 @@
       <div class="div">
 
         <div style="position: relative;
-                    top: -5%;">\
+                    top: -5%;">
 
           <div class="logo">
             <div class="text-wrapper-3">eduCAE</div>
@@ -47,11 +47,22 @@
         </div>
         <div class="tasto-leggi">
           <div class="leggi">
-            <div class="text-wrapper-12">Homepage</div>
+            <div class="text-wrapper-12" onclick="changePage()">Homepage</div>
             <img class="group-3" src="../resources/img-auth/group-50.png" />
           </div>
         </div>
       </div>
     </div>
   </body>
+
+  <script>
+
+    function changePage(){
+
+      window.location.href = "auth-home.html"
+
+    }
+
+  </script>
+
 </html>

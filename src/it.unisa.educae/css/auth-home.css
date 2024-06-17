@@ -1,0 +1,373 @@
+.home {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 1280px;
+  height: 720px;
+  position: relative;
+}
+
+.home .barra-motore-di {
+  position: absolute;
+  width: 1282px;
+  height: 52px;
+  top: 4px;
+  left: 0;
+}
+
+.home .overlap {
+  position: absolute;
+  width: 1280px;
+  height: 28px;
+  top: 24px;
+  left: 0;
+  background-color: #ffffff;
+}
+
+.home .text-wrapper {
+  position: absolute;
+  top: 7px;
+  left: 100px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .icona-sicurezza {
+  position: absolute;
+  width: 7px;
+  height: 9px;
+  top: 8px;
+  left: 84px;
+}
+
+.home .icona-torna-indietro {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 10px;
+  left: 12px;
+}
+
+.home .icona-vai-avanti {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 10px;
+  left: 37px;
+}
+
+.home .icona-ricarica {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 9px;
+  left: 56px;
+}
+
+.home .finestra {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: 0;
+  left: 0;
+}
+
+.home .overlap-group {
+  position: relative;
+  width: 98px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.home .text-wrapper-2 {
+  position: absolute;
+  top: 5px;
+  left: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .vector {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 7px;
+  left: 11px;
+}
+
+.home .icona-ricerca {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 1187px;
+}
+
+.home .icona-riduci {
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: 12px;
+  left: 1212px;
+  background-image: url(./img/line-8.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home .icona-chiudi {
+  position: absolute;
+  width: 7px;
+  height: 8px;
+  top: 5px;
+  left: 1261px;
+}
+
+.home .line-wrapper {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-image: url(./img/line-9.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home .line {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home .icona-window {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 5px;
+  left: 1237px;
+}
+
+.home .overlap-2 {
+  position: relative;
+  height: 8px;
+}
+
+.home .rectangle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 2px;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.home .rectangle-2 {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0;
+  left: 2px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.home .logo {
+  position: absolute;
+  width: 74px;
+  height: 66px;
+  top: 51px;
+  left: 604px;
+}
+
+.home .text-wrapper-3 {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 20px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .img {
+  position: absolute;
+  width: 33px;
+  height: 33px;
+  top: -1px;
+  left: 19px;
+}
+
+.home .overlap-3 {
+  position: absolute;
+  width: 450px;
+  height: 237px;
+  top: 172px;
+  left: 792px;
+}
+
+.home .frame {
+  display: flex;
+  width: 135px;
+  height: 34px;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 32px 16px 35px;
+  position: absolute;
+  top: 154px;
+  left: 158px;
+  background-color: #1a1a1a;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home .text-wrapper-4 {
+  position: relative;
+  width: fit-content;
+  margin-top: -9px;
+  margin-bottom: -7px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #e5e5e5;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home .rectangle-3 {
+  position: absolute;
+  width: 450px;
+  height: 237px;
+  top: 0;
+  left: 0;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.home .text-wrapper-5 {
+  position: absolute;
+  width: 54px;
+  top: 28px;
+  left: 107px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .text-wrapper-6 {
+  position: absolute;
+  width: 97px;
+  top: 86px;
+  left: 107px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 16px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .rectangle-4 {
+  position: absolute;
+  width: 241px;
+  height: 27px;
+  top: 51px;
+  left: 106px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.home .rectangle-5 {
+  position: absolute;
+  width: 241px;
+  height: 26px;
+  top: 108px;
+  left: 106px;
+  background-color: #d9d9d9;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.home .tasto-leggi {
+  position: absolute;
+  width: 123px;
+  height: 36px;
+  top: 96px;
+  left: 1125px;
+  background-color: #E5E5E5;
+  background-size: 100% 100%;
+}
+
+.home .leggi {
+  position: relative;
+  width: 105px;
+  height: 14px;
+  top: 9px;
+  left: 9px;
+}
+
+.home .overlap-group-2 {
+  position: relative;
+  width: 103px;
+  height: 14px;
+}
+
+.home .text-wrapper-7 {
+  position: absolute;
+  width: 101px;
+  top: 0;
+  left: 0;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home .group {
+  position: absolute;
+  width: 5px;
+  height: 8px;
+  top: 5px;
+  left: 98px;
+}
+
+.home .image {
+  position: absolute;
+  width: 488px;
+  height: 499px;
+  top: 135px;
+  left: 27px;
+  object-fit: cover;
+}
