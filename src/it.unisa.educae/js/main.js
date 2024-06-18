@@ -16,6 +16,12 @@ function medals(){
 
 }
 
+function libreria(){
+
+    window.location.href = "../html/libreria.html";
+
+}
+
 function exit(){
 
     window.location.href = "../html/auth-home.html";
