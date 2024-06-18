@@ -7,149 +7,159 @@
     <script src = "../js/main.js"></script>
   </head>
   <body>
+
     <div class="home-utente">
+
       <div class="div">
-        <div class="card-risorsa-2">
-          <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-          <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-          <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-            Hon Ki Tsang
-            Ana Carcia Armada
-            Wonjae Shin
-          </p>
-          <div class="tasto-abstract" style="top: 17px;">
-            <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-              <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-              <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
-            </div>
-          </div>
-          <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-            <div class="div-wrapper">
-              <div class="text-wrapper-5">Abstract</div>
-            </div>
-          </div>
-          <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-            <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-              <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
-            </div>
-          </div>
-          <div class="logo-rivista">
-            <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
-          </div>
+
+        <div class="div-wrapper" style="background-color: #e5e5e5; width: 377px; height: 24px; top: 50px; left: 41%; border-color: transparent; border-radius: 10px;">
+          <input type="text" style="background-color: transparent; position: relative; border: transparent; width: 100%; height: 100%;">
+          <img src="../resources/Component%201search.png" style="position: absolute; left: 90%; height: 103%;" onclick="cerca()">
         </div>
 
-        <div class="card-risorsa-1">
-          <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-          <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-          <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-            Hon Ki Tsang
-            Ana Carcia Armada
-            Wonjae Shin
-          </p>
-          <div class="tasto-abstract" style="top: 17px;">
-            <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-              <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-              <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+        <div class = "container" id="container">
+
+          <div class="card-risorsa">
+            <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
+            <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
+            <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+              Hon Ki Tsang
+              Ana Carcia Armada
+              Wonjae Shin
+            </p>
+            <div class="tasto-abstract" style="top: 17px;" onclick="save(this)">
+              <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+              </div>
+            </div>
+            <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
+              <div class="div-wrapper">
+                <div class="text-wrapper-5">Abstract</div>
+              </div>
+            </div>
+            <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
+              <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+              </div>
+            </div>
+            <div class="logo-rivista">
+              <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
             </div>
           </div>
-          <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-            <div class="div-wrapper">
-              <div class="text-wrapper-5">Abstract</div>
+
+          <div class="card-risorsa">
+            <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
+            <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
+            <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+              Hon Ki Tsang
+              Ana Carcia Armada
+              Wonjae Shin
+            </p>
+            <div class="tasto-abstract" style="top: 17px;" onclick="save(this)">
+              <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+              </div>
+            </div>
+            <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
+              <div class="div-wrapper">
+                <div class="text-wrapper-5">Abstract</div>
+              </div>
+            </div>
+            <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
+              <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+              </div>
+            </div>
+            <div class="logo-rivista">
+              <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
+            </div><div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
+            <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
+            <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+              Hon Ki Tsang
+              Ana Carcia Armada
+              Wonjae Shin
+            </p>
+            <div class="tasto-abstract" style="top: 17px;" onclick="save(this)">
+              <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+              </div>
+            </div>
+            <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
+              <div class="div-wrapper">
+                <div class="text-wrapper-5">Abstract</div>
+              </div>
+            </div>
+            <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
+              <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+              </div>
+            </div>
+            <div class="logo-rivista">
+              <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
             </div>
           </div>
-          <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-            <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-              <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+
+          <div class="card-risorsa">
+            <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
+            <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
+            <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+              Hon Ki Tsang
+              Ana Carcia Armada
+              Wonjae Shin
+            </p>
+            <div class="tasto-abstract" style="top: 17px;" onclick="save(this)">
+              <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+              </div>
+            </div>
+            <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
+              <div class="div-wrapper">
+                <div class="text-wrapper-5">Abstract</div>
+              </div>
+            </div>
+            <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
+              <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+              </div>
+            </div>
+            <div class="logo-rivista">
+              <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
             </div>
           </div>
-          <div class="logo-rivista">
-            <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
-          </div><div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-          <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-          <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-            Hon Ki Tsang
-            Ana Carcia Armada
-            Wonjae Shin
-          </p>
-          <div class="tasto-abstract" style="top: 17px;">
-            <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-              <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-              <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+
+          <div class="card-risorsa">
+            <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
+            <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
+            <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+              Hon Ki Tsang
+              Ana Carcia Armada
+              Wonjae Shin
+            </p>
+            <div class="tasto-abstract" style="top: 17px;" onclick="save(this)">
+              <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+              </div>
             </div>
-          </div>
-          <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-            <div class="div-wrapper">
-              <div class="text-wrapper-5">Abstract</div>
+            <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
+              <div class="div-wrapper">
+                <div class="text-wrapper-5">Abstract</div>
+              </div>
             </div>
-          </div>
-          <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-            <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-              <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+            <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
+              <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+              </div>
             </div>
-          </div>
-          <div class="logo-rivista">
-            <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
+            <div class="logo-rivista">
+              <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
+            </div>
           </div>
         </div>
-
-        <div class="card-risorsa-3">
-          <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-          <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-          <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-            Hon Ki Tsang
-            Ana Carcia Armada
-            Wonjae Shin
-          </p>
-          <div class="tasto-abstract" style="top: 17px;">
-            <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-              <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-              <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
-            </div>
-          </div>
-          <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-            <div class="div-wrapper">
-              <div class="text-wrapper-5">Abstract</div>
-            </div>
-          </div>
-          <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-            <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-              <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
-            </div>
-          </div>
-          <div class="logo-rivista">
-            <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
-          </div>
-        </div>
-
-        <div class="card-risorsa-4">
-          <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-          <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-          <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-            Hon Ki Tsang
-            Ana Carcia Armada
-            Wonjae Shin
-          </p>
-          <div class="tasto-abstract" style="top: 17px;">
-            <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-              <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-              <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
-            </div>
-          </div>
-          <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-            <div class="div-wrapper">
-              <div class="text-wrapper-5">Abstract</div>
-            </div>
-          </div>
-          <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-            <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-              <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
-            </div>
-          </div>
-          <div class="logo-rivista">
-            <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
-          </div>
-        </div>
-
         <div class="text-wrapper-6">Nuovi contenuti</div>
         <div class="text-wrapper-7">Consigliati</div>
         <div class="overlap-3">
@@ -222,6 +232,12 @@
             "            <img class=\"logo-ieee\" src=\"../resources/img-home/logo-ieee-1.svg\" />" +
             "          </div>"
     
+  }
+
+  function cerca(){
+
+    window.location.href = "../html/ricerca.html";
+
   }
 
 </script>

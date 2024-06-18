@@ -2,7 +2,7 @@ async function read_domande(){
 
     try {
 
-        let response = await fetch("../js/questions.json");
+        let response = await fetch("../resources/json/questions.json");
         const key = "questions";
 
         if (!response.ok) {
