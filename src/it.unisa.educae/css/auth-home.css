@@ -245,7 +245,7 @@
 }
 
 .home .text-wrapper-4 {
-  position: relative;
+  position: absolute;
   width: fit-content;
   margin-top: -9px;
   margin-bottom: -7px;

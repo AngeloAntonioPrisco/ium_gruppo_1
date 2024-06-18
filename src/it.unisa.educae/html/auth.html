@@ -38,9 +38,9 @@
 
           <div style="top: 18%;
                       position: relative;">
-            <div class="frame"><div class="text-wrapper-10">Registrati</div></div>
+            <div class="frame" onclick="accedi()"><div class="text-wrapper-10">Registrati</div></div>
             <p class="hai-gi-un-account">
-              <span class="span">Hai già un account? </span> <span class="text-wrapper-11">Accedi</span>
+              <span class="span">Hai già un account? </span> <span class="text-wrapper-11" onclick="changePage()">Accedi</span>
             </p>
           </div>
 
@@ -60,6 +60,12 @@
     function changePage(){
 
       window.location.href = "auth-home.html"
+
+    }
+
+    function accedi(){
+
+      window.location.href = "index.html"
 
     }
 
