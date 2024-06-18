@@ -1,0 +1,423 @@
+.test {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.test .div {
+  background-color: #ffffff;
+  width: 100%;
+  height: 720px;
+  position: absolute;
+  top: -2%;
+}
+
+.test .overlap {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 73px;
+  left: 20px;
+}
+
+.test .nav-bar {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 0;
+  left: 0;
+}
+
+.test .overlap-group {
+  position: relative;
+  height: 632px;
+}
+
+.test .background-nav-bar {
+  position: absolute;
+  width: 38px;
+  height: 632px;
+  top: 0;
+  left: 0;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+}
+
+.test .bottom-nav-bar {
+  position: absolute;
+  width: 17px;
+  height: 68px;
+  top: 539px;
+  left: 10px;
+}
+
+.test .separatore-nav-bar {
+  position: absolute;
+  width: 39px;
+  height: 1px;
+  top: 520px;
+  left: 0;
+  object-fit: cover;
+}
+
+.test .top-nav-bar {
+  position: absolute;
+  width: 16px;
+  height: 94px;
+  top: 76px;
+  left: 11px;
+}
+
+.test .rectangle {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 78px;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.test .icona-home-utente {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 0;
+  left: 3px;
+}
+
+.test .icona-libreria {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 28px;
+  left: 3px;
+}
+
+.test .icona-bacheca {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 56px;
+  left: 3px;
+}
+
+.test .icona-espandi-nav {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 35px;
+  left: 34px;
+}
+
+.test .immagine-profilo {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 32px;
+  left: 11px;
+  object-fit: cover;
+}
+
+.test .test-svgrepo-com {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 156px;
+  left: 13px;
+}
+
+.test .card-risorsa {
+  left: 192px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  top: 163px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .tasto-abstract {
+  position: absolute;
+  width: 93px;
+  height: 9px;
+  top: 176px;
+  left: 63px;
+}
+
+.test .text-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 6.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .group {
+  position: absolute;
+  width: 157px;
+  height: 23px;
+  top: 201px;
+  left: 30px;
+}
+
+.test .overlap-group-wrapper {
+  width: 48px;
+  top: 0;
+  left: 111px;
+  position: absolute;
+  height: 23px;
+}
+
+.test .div-wrapper {
+  position: relative;
+  width: 46px;
+  height: 23px;
+  background-color: #F24876;
+  background-size: 100% 100%;
+  border-radius: 1.5px;
+}
+
+.test .text-wrapper-2 {
+  position: absolute;
+  top: 7px;
+  left: 5px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 6.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .overlap-wrapper {
+  width: 48px;
+  top: 0;
+  left: 56px;
+  position: absolute;
+  height: 23px;
+}
+
+.test .overlap-2 {
+  position: relative;
+  width: 46px;
+  height: 23px;
+  background-color: #F4D153;
+  background-size: 100% 100%;
+  border-radius: 1.5px;
+}
+
+.test .text-wrapper-3 {
+  position: absolute;
+  top: 7px;
+  left: 13px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 6.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .group-2 {
+  width: 48px;
+  top: 0;
+  left: 0;
+  position: absolute;
+  height: 23px;
+}
+
+.test .overlap-3 {
+  position: relative;
+  width: 46px;
+  height: 23px;
+  background-color: #80C9AC;
+  background-size: 100% 100%;
+  border-radius: 1.5px;
+}
+
+.test .text-wrapper-4 {
+  position: absolute;
+  top: 7px;
+  left: 11px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 6.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .text-wrapper-5 {
+  position: absolute;
+  top: 67px;
+  left: 13px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 8.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .text-wrapper-6 {
+  position: absolute;
+  top: 92px;
+  left: 13px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 10.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .text-wrapper-7 {
+  position: absolute;
+  top: 70px;
+  left: 71px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 5.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .hon-ki-tsang-ana {
+  position: absolute;
+  width: 83px;
+  top: 109px;
+  left: 13px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 8.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .logo-rivista {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 17px;
+  left: 12px;
+  border-radius: 16.17px;
+  border: 2.02px solid;
+  border-color: #4c4c4c;
+}
+
+.test .logo-ieee {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 3px;
+  left: 3px;
+}
+
+.test .card-risorsa-2 {
+  left: 440px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  top: 163px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .tasto-abstract-2 {
+  position: absolute;
+  width: 115px;
+  height: 23px;
+  top: 169px;
+  left: 92px;
+}
+
+.test .overlap-group-2 {
+  position: relative;
+  width: 113px;
+  height: 23px;
+  border-radius: 2.02px;
+  border: 0.51px solid;
+  border-color: #1a1a1a;
+}
+
+.test .text-wrapper-8 {
+  position: absolute;
+  top: 6px;
+  left: 10px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 6.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .group-3 {
+  width: 147px;
+  top: 201px;
+  left: 60px;
+  position: absolute;
+  height: 23px;
+}
+
+.test .overlap-4 {
+  background-color: #1a1a1a;
+  position: relative;
+  width: 145px;
+  height: 23px;
+  background-size: 100% 100%;
+  border-radius: 1.5px;
+}
+
+.test .text-wrapper-9 {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #e5e5e5;
+  font-size: 6.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.test .card-risorsa-3 {
+  left: 688px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  top: 163px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .card-risorsa-4 {
+  left: 936px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  top: 163px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.test .text-wrapper-10 {
+  position: absolute;
+  top: 128px;
+  left: 192px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}

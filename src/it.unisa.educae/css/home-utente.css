@@ -1,0 +1,525 @@
+.home-utente {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.home-utente .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 100%;
+  height: 720px;
+  position: absolute;
+  top: -2%;
+}
+
+.home-utente .barra-motore-di {
+  position: absolute;
+  width: 1282px;
+  height: 52px;
+  top: 4px;
+  left: 0;
+}
+
+.home-utente .overlap {
+  position: relative;
+  height: 53px;
+  left: -1px;
+}
+
+.home-utente .overlap-group {
+  position: absolute;
+  width: 1282px;
+  height: 53px;
+  top: 0;
+  left: 0;
+}
+
+.home-utente .barra-di-ricerca {
+  position: absolute;
+  width: 1282px;
+  height: 30px;
+  top: 23px;
+  left: 0;
+  background-color: #ffffff;
+  border-top-width: 1px;
+  border-top-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: #000000;
+}
+
+.home-utente .text-wrapper {
+  position: absolute;
+  top: 31px;
+  left: 101px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 10px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.home-utente .icona-sicurezza {
+  position: absolute;
+  width: 7px;
+  height: 9px;
+  top: 32px;
+  left: 85px;
+}
+
+.home-utente .icona-torna-indietro {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 34px;
+  left: 13px;
+}
+
+.home-utente .icona-vai-avanti {
+  position: absolute;
+  width: 4px;
+  height: 7px;
+  top: 34px;
+  left: 38px;
+}
+
+.home-utente .icona-ricarica {
+  position: absolute;
+  width: 10px;
+  height: 9px;
+  top: 33px;
+  left: 57px;
+}
+
+.home-utente .finestra {
+  position: absolute;
+  width: 100px;
+  height: 24px;
+  top: 0;
+  left: 1px;
+}
+
+.home-utente .overlap-group-2 {
+  position: relative;
+  width: 98px;
+  height: 24px;
+  background-color: #ffffff;
+  border-radius: 4px 4px 0px 0px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.home-utente .text-wrapper-2 {
+  position: absolute;
+  top: 5px;
+  left: 24px;
+  font-family: "Inter", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 9px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-utente .vector {
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  top: 7px;
+  left: 11px;
+}
+
+.home-utente .icona-ricerca {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 4px;
+  left: 1188px;
+}
+
+.home-utente .icona-riduci {
+  position: absolute;
+  width: 9px;
+  height: 1px;
+  top: 12px;
+  left: 1213px;
+  background-image: url(./img/line-8.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-utente .icona-chiudi {
+  position: absolute;
+  width: 7px;
+  height: 8px;
+  top: 5px;
+  left: 1262px;
+}
+
+.home-utente .line-wrapper {
+  position: relative;
+  width: 8px;
+  height: 8px;
+  background-image: url(./img/line-9.svg);
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+.home-utente .line {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+
+.home-utente .icona-window {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 5px;
+  left: 1238px;
+}
+
+.home-utente .overlap-2 {
+  position: relative;
+  height: 8px;
+}
+
+.home-utente .rectangle {
+  top: 2px;
+  left: 0;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.home-utente .rectangle-2 {
+  top: 0;
+  left: 2px;
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+.home-utente .img {
+  position: absolute;
+  width: 377px;
+  height: 25px;
+  top: 73px;
+  left: 474px;
+}
+
+.home-utente .card-risorsa {
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  top: 449px;
+  left: 192px;
+}
+
+.home-utente .card-risorsa-2 {
+  top: 163px;
+  left: 440px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+}
+
+.home-utente .card-risorsa-1 {
+  top: 163px;
+  left: 192px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+}
+
+.home-utente .text-wrapper-3 {
+  position: absolute;
+  top: 21px;
+  left: 55px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 8.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-utente .text-wrapper-4 {
+  position: absolute;
+  top: 32px;
+  left: 55px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 700;
+  color: #1a1a1a;
+  font-size: 10.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-utente .p {
+  position: absolute;
+  width: 192px;
+  top: 70px;
+  left: 13px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #4c4c4c;
+  font-size: 8.1px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-utente .tasto-abstract {
+  position: absolute;
+  width: 62px;
+  height: 23px;
+  top: 201px;
+  left: 145px;
+}
+
+.home-utente .div-wrapper {
+  position: relative;
+  width: 60px;
+  height: 23px;
+  border-radius: 2.02px;
+  border: 0.51px solid;
+  border-color: #1a1a1a;
+}
+
+.home-utente .text-wrapper-5 {
+  position: absolute;
+  top: 6px;
+  left: 13px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 400;
+  color: #1a1a1a;
+  font-size: 6.6px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-utente .logo-rivista {
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  top: 17px;
+  left: 12px;
+  border-radius: 16.17px;
+  border: 2.02px solid;
+  border-color: #4c4c4c;
+}
+
+.home-utente .logo-ieee {
+  position: absolute;
+  width: 23px;
+  height: 23px;
+  top: 3px;
+  left: 3px;
+}
+
+.home-utente .card-risorsa-3 {
+  top: 449px;
+  left: 192px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+}
+
+.home-utente .card-risorsa-4 {
+  top: 163px;
+  left: 688px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+  background-color: #f2f2f2;
+  border-radius: 8.09px;
+}
+
+.home-utente .card-risorsa-5 {
+  top: 449px;
+  left: 688px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+}
+
+.home-utente .card-risorsa-6 {
+  top: 163px;
+  left: 936px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+}
+
+.home-utente .card-risorsa-7 {
+  top: 449px;
+  left: 936px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+}
+
+.home-utente .card-risorsa-8 {
+  top: 163px;
+  left: 192px;
+  position: absolute;
+  width: 216px;
+  height: 236px;
+}
+
+.home-utente .text-wrapper-6 {
+  position: absolute;
+  top: 128px;
+  left: 192px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-utente .text-wrapper-7 {
+  position: absolute;
+  top: 414px;
+  left: 192px;
+  font-family: "JetBrains Mono", Helvetica;
+  font-weight: 500;
+  color: #1a1a1a;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: normal;
+}
+
+.home-utente .overlap-3 {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 73px;
+  left: 20px;
+}
+
+.home-utente .nav-bar {
+  position: absolute;
+  width: 43px;
+  height: 632px;
+  top: 0;
+  left: 0;
+}
+
+.home-utente .overlap-4 {
+  position: relative;
+  height: 632px;
+}
+
+.home-utente .background-nav-bar {
+  position: absolute;
+  width: 38px;
+  height: 632px;
+  top: 0;
+  left: 0;
+  background-color: #1a1a1a;
+  border-radius: 4px;
+}
+
+.home-utente .bottom-nav-bar {
+  position: absolute;
+  width: 17px;
+  height: 68px;
+  top: 539px;
+  left: 10px;
+}
+
+.home-utente .separatore-nav-bar {
+  position: absolute;
+  width: 39px;
+  height: 1px;
+  top: 520px;
+  left: 0;
+  object-fit: cover;
+}
+
+.home-utente .top-nav-bar {
+  position: absolute;
+  width: 16px;
+  height: 69px;
+  top: 73px;
+  left: 11px;
+}
+
+.home-utente .icona-home-utente-wrapper {
+  position: absolute;
+  width: 16px;
+  height: 16px;
+  top: 0;
+  left: 0;
+  background-color: #d9d9d9;
+  border-radius: 4px;
+}
+
+.home-utente .icona-home-utente {
+  position: absolute;
+  width: 10px;
+  height: 11px;
+  top: 3px;
+  left: 3px;
+}
+
+.home-utente .icona-libreria {
+  position: absolute;
+  width: 11px;
+  height: 10px;
+  top: 31px;
+  left: 3px;
+}
+
+.home-utente .icona-bacheca {
+  position: absolute;
+  width: 11px;
+  height: 11px;
+  top: 59px;
+  left: 3px;
+}
+
+.home-utente .icona-espandi-nav {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  top: 35px;
+  left: 34px;
+}
+
+.home-utente .immagine-profilo {
+  position: absolute;
+  width: 16px;
+  height: 15px;
+  top: 32px;
+  left: 11px;
+  object-fit: cover;
+}
+
+.home-utente .test-svgrepo-com {
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 156px;
+  left: 13px;
+}
