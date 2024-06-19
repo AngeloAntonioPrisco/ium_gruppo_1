@@ -22,7 +22,7 @@
                     Ana Carcia Armada
                     Wonjae Shin
                 </p>
-                <div class="tasto-abstract" style="top: 17px;">
+                <div class="tasto-abstract .save" style="top: 17px;" onclick="save(this)">
                     <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
                         <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
                         <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
@@ -47,7 +47,7 @@
                     Ana Carcia Armada
                     Wonjae Shin
                 </p>
-                <div class="tasto-abstract" style="top: 17px;" onclick="save(this)">
+                <div class="tasto-abstract .save" style="top: 17px;" onclick="save(this)">
                     <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
                         <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
                         <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
@@ -76,7 +76,7 @@
                     Ana Carcia Armada
                     Wonjae Shin
                 </p>
-                <div class="tasto-abstract" style="top: 17px;" onclick="save(this)">
+                <div class="tasto-abstract .save" style="top: 17px;" onclick="save(this)">
                     <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
                         <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
                         <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
@@ -193,7 +193,13 @@
 
     window.onload = function (){
 
-        salvati();
+        salvati()
+
+        document.querySelectorAll(".save").forEach(element => {
+
+                isSaved(element);
+
+        });
 
     }
 

@@ -32,26 +32,40 @@ function save(element){
 
     let parent = element.parentElement;
 
+    let nodes;
+    let titles;
+
     if(sessionStorage.getItem('savedNode') !== null) {
 
         nodes = JSON.parse(sessionStorage.getItem('savedNode'));
+        titles = JSON.parse(sessionStorage.getItem('title'));
 
     } else {
 
         nodes = [];
+        titles = [];
 
     }
 
-    nodes.push(parent.outerHTML);
+    let title = parent.querySelector(".text-wrapper-4").innerText;
+
+    if (!(title in titles)) {
+
+        element.innerHTML = "<div class=\"div-wrapper\" style=\"background-color: #e5e5e5; width: 48px; border-color: transparent\">" +
+            "                    <div class=\"text-wrapper-5\" style=\"color: #1a1a1a; left: 6px;\">Salvato</div>" +
+            "                    <img src=\"../resources/img-home/bookmark-svgrepo-com 1salvato.png\" style=\"width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 36px;\">" +
+            "                </div>";
+
+        nodes.push(parent.outerHTML);
+        titles.push(parent.querySelector(".text-wrapper-4").innerText);
+
+        element.removeAttribute('onclick');
+        element.setAttribute('onclick', 'desave(this)');
+
+    }
+
     sessionStorage.setItem('savedNode', JSON.stringify(nodes));
-
-    element.innerHTML = "<div class=\"div-wrapper\" style=\"background-color: #e5e5e5; width: 48px; border-color: transparent\">" +
-        "                    <div class=\"text-wrapper-5\" style=\"color: #1a1a1a; left: 6px;\">Salvato</div>" +
-        "                    <img src=\"../resources/img-home/bookmark-svgrepo-com 1salvato.png\" style=\"width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 36px;\">" +
-        "                </div>";
-
-    element.removeAttribute('onclick');
-    element.setAttribute('onclick', 'desave(this)');
+    sessionStorage.setItem('title', JSON.stringify(titles));
 
 }
 
@@ -62,7 +76,56 @@ function desave(element){
         "                        <img src=\"../resources/img-home/bookmark-svgrepo-com%201salva.png\" style=\"width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;\">" +
         "                    </div>";
 
+    let nodes = JSON.parse(sessionStorage.getItem('savedNode'));
+    let titles = JSON.parse(sessionStorage.getItem('title'));
+
+    let parent = element.parentElement;
+
+    let nodeTwo = [];
+    let title = [];
+
+    for (let i = 0; i < titles.length; i++){
+
+        if (titles[i] !== parent.querySelector(".text-wrapper-4").innerText){
+
+            nodeTwo.push(nodes[i]);
+            title.push(titles[i]);
+
+        }
+
+    }
+
+    sessionStorage.setItem('savedNode', JSON.stringify(nodeTwo));
+    sessionStorage.setItem('title', JSON.stringify(title));
+
     element.removeAttribute('onclick');
     element.setAttribute('onclick', 'save(this)');
+
+}
+
+function isSaved(element){
+
+    let titles = JSON.parse(sessionStorage.getItem('title'));
+    let parent = element.parentElement;
+
+    if (titles !== null) {
+
+        for (let i = 0; i < titles.length; i++) {
+
+            if (titles[i] === parent.querySelector(".text-wrapper-4").innerText) {
+
+                element.innerHTML = "<div class=\"div-wrapper\" style=\"background-color: #e5e5e5; width: 48px; border-color: transparent\">" +
+                    "                    <div class=\"text-wrapper-5\" style=\"color: #1a1a1a; left: 6px;\">Salvato</div>" +
+                    "                    <img src=\"../resources/img-home/bookmark-svgrepo-com 1salvato.png\" style=\"width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 36px;\">" +
+                    "                </div>";
+
+                element.removeAttribute('onclick');
+                element.setAttribute('onclick', 'desave(this)');
+
+            }
+
+        }
+
+    }
 
 }
