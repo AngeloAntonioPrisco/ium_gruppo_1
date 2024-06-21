@@ -202,6 +202,12 @@ html, body {
   left: 20px;
 }
 
+.domande:hover{
+
+  transform: scale(1.05);
+
+}
+
 .test .nav-bar {
   position: absolute;
   width: 43px;
