@@ -4,8 +4,10 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../css/globals.css" />
     <link rel="stylesheet" href="../css/home-utente.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
     <script src = "../js/main.js"></script>
   </head>
+
   <body>
 
     <div class="home-utente">
@@ -145,30 +147,13 @@
         <div class="text-wrapper-6">Nuovi contenuti</div>
         <div class="text-wrapper-7">Consigliati</div>
 
-        <div class="overlap-3">
-          <div class="nav-bar">
-            <div class="overlap-4">
-              <div class="background-nav-bar"></div>
-              <img class="bottom-nav-bar" src="../resources/img-home/bottom-nav-bar.png"/>
-              <img class="separatore-nav-bar" src="../resources/img-home/separatore-nav-bar.svg" />
-              <div class="top-nav-bar">
-                <div class="icona-home-utente-wrapper">
-                  <img class="icona-home-utente" src="../resources/img-home/icona-home-utente.svg" onclick="back()"/>
-                </div>
-                <img class="icona-libreria" src="../resources/img-home/icona-libreria.png" onclick="libreria()"/>
-                <img class="icona-bacheca" src="../resources/img-home/icona-bacheca.svg" onclick="medals()" />
-              </div>
-              <img class="icona-espandi-nav" src="../resources/img-home/icona-espandi-nav-bar.png" />
-              <img class="immagine-profilo" src="../resources/img-home/immagine-profilo.png" />
-            </div>
-          </div>
-          <img class="test-svgrepo-com" src="../resources/img-home/test-svgrepo-com-1.svg" onclick="testSection()"/>
-        </div>
+        <div id="nav" style="height: 100%; position: absolute; top: 0%; border: transparent; z-index: 1"></div>
+
       </div>
 
     </div>
 
-  </body>
+</body>
 
 <script>
   
@@ -226,6 +211,8 @@
   }
 
   window.onload = (event) => {
+
+    navbar();
 
     document.querySelectorAll(".save").forEach(element => {
 

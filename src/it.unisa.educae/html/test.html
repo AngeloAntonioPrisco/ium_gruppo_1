@@ -4,29 +4,14 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../css/globals.css" />
     <link rel="stylesheet" href="../css/test.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
     <script src = "../js/main.js"></script>
   </head>
   <body>
     <div class="test">
       <div class="div">
-        <div class="overlap">
-          <div class="nav-bar">
-            <div class="overlap-group">
-              <div class="background-nav-bar"></div>
-              <img class="bottom-nav-bar" src="../resources/img-test/bottom-nav-bar.png" />
-              <img class="separatore-nav-bar" src="../resources/img-test/separatore-nav-bar.svg" />
-              <div class="top-nav-bar">
-                <div class="rectangle"></div>
-                <img class="icona-home-utente" src="../resources/img-test/icona-home-utente.svg" onclick="back()"/>
-                <img class="icona-libreria" src="../resources/img-test/icona-libreria.png" onclick="libreria()"/>
-                <img class="icona-bacheca" src="../resources/img-test/icona-bacheca.svg"  onclick="medals()"/>
-              </div>
-              <img class="icona-espandi-nav" src="../resources/img-test/icona-espandi-nav-bar.png" />
-              <img class="immagine-profilo" src="../resources/img-test/immagine-profilo.png" />
-            </div>
-          </div>
-          <img class="test-svgrepo-com" src="../resources/img-test/test-svgrepo-com-1.svg" onclick="testSection()"/>
-        </div>
+
+        <div id="nav" style="height: 100%; position: absolute; top: 0%; border: transparent; z-index: 1"></div>
 
         <div class="card-risorsa">
           <div class="text-wrapper-5">IEEE Xplore</div>
@@ -123,6 +108,12 @@
     window.location.href = "test-effettivo.html"
 
  }
+
+  window.onload = (event) => {
+
+    navbar();
+
+  };
 
 </script>
 

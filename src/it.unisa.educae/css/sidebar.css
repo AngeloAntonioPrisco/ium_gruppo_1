@@ -1,0 +1,121 @@
+.sidebar {
+    width: 40px;
+    background: #1c1c1c;
+    color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 32px;
+    position: fixed;
+    top: 34px;
+    bottom: 16px;
+    left: 16px;
+    border-radius: 8px;
+}
+
+.sidebar2 {
+    width: 196px;
+    background: #1c1c1c;
+    color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    padding-top: 32px;
+    position: fixed;
+    top: 34px;
+    bottom: 16px;
+    left: 16px;
+    border-radius: 8px;
+}
+
+.user {
+    border-radius: 4px;
+    display: flex;
+}
+
+.sidebar ul li {
+    margin-bottom: 16px;
+}
+
+.sidebar2 ul li {
+    margin-bottom: 16px;
+    margin-left: 16px;
+}
+
+.sidebar ul li button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sidebar2 ul li button {
+    background: none;
+    border: none;
+    font-size: 24px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.navbuttons {
+    position: absolute;
+    bottom: 0;
+}
+
+nav.sidebar ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Questo centra orizzontalmente gli elementi figli (i pulsanti) */
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav.sidebar2 ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav.sidebar ul li button {
+    display: flex;
+    justify-content: center; /* Centra il contenuto all'interno del pulsante */
+    align-items: center; /* Centra il contenuto all'interno del pulsante */
+    border: none;
+    background: none; /* Rimuovi lo sfondo e il bordo del pulsante se necessario */
+    cursor: pointer;
+}
+
+nav.sidebar2 ul li button {
+    display: flex;
+    justify-content: center; /* Centra il contenuto all'interno del pulsante */
+    align-items: center; /* Centra il contenuto all'interno del pulsante */
+    border: none;
+    background: none; /* Rimuovi lo sfondo e il bordo del pulsante se necessario */
+    cursor: pointer;
+}
+
+/* Stile specifico per il pulsante con la classe open */
+nav.sidebar li.open {
+    position: absolute;
+    left: 27px; /* Posizionamento sull'asse X */
+    top: 34px; /* Posizionamento sull'asse Y */
+    z-index: 1; /* Assicura che il pulsante sia visibile sopra gli altri elementi */
+    display: inline;
+}
+nav.sidebar2 li.open {
+    position: absolute;
+    left: 165px; /* Posizionamento sull'asse X */
+    top: 34px; /* Posizionamento sull'asse Y */
+    z-index: 1; /* Assicura che il pulsante sia visibile sopra gli altri elementi */
+    display: inline;
+}
+
+.sidebar2 p {
+    margin-left: 16px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+}
+

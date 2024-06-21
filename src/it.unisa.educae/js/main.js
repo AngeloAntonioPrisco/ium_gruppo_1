@@ -129,3 +129,96 @@ function isSaved(element){
     }
 
 }
+
+function navOpen(){
+
+    sessionStorage.setItem('navbar', 'true');
+
+    document.getElementById("nav").innerHTML =
+        "<nav class=\"sidebar2\">" +
+        "    <ul>" +
+        "        <li><button><img class=\"user\" src=\"../resources/img-sidebar/user.png\" width=\"18\"/><p>Bentornato eesi</p></button></li>" +
+        "        <li class=\"open\"><button onclick='navClose()'><img src=\"../resources/img-sidebar/Open_Sidebar_Off.svg\" width=\"16px\"/></button></li>" +
+        "        <li><button onclick='back()'><img src=\"../resources/img-sidebar/Home_Button_On.svg\" width=\"18px\"/><p>Home</p></button></li>" +
+        "        <li><button onclick='libreria()'><img src=\"../resources/img-sidebar/Bookshelf_Button_Off.svg\" width=\"18px\"/><p>Libreria</p></button></li>" +
+        "        <li><button onclick='medals()'><img src=\"../resources/img-sidebar/Trophy_Button_Off.svg\"  width=\"18px\"/><p>Bacheca</p></button></li>" +
+        "        <li><button onclick='testSection()'><img src=\"../resources/img-sidebar/Test_Button_Off.svg\"  width=\"18px\"/><p>Test</p></button></li>" +
+        "    </ul>" +
+        "" +
+        "    <div class=\"navbuttons\">" +
+        "        <ul>" +
+        "            <li><button onclick='exit()'><img src=\"../resources/img-sidebar/Logout_Button.png\" width=\"12px\"/><p>Esci</p></button></li>" +
+        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/><p>Modalità lettura</p></button></li>" +
+        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/><p>Filtro daltonismo</p></button></li>" +
+        "        </ul>" +
+        "    </div>" +
+        "</nav>";
+
+}
+
+function navClose(){
+
+    sessionStorage.setItem('navbar', 'false');
+
+    document.getElementById("nav").innerHTML =
+        "<nav class=\"sidebar\">" +
+        "    <ul>" +
+        "        <li><button><img class=\"user\" src=\"../resources/img-sidebar/user.png\" width=\"18px\"/></button></li>" +
+        "        <li class=\"open\"><button onclick=\"navOpen()\"><img src=\"../resources/img-sidebar/Open_Sidebar_Off.svg\" width=\"16px\"/></button></li>" +
+        "        <li><button onclick='back()'><img src=\"../resources/img-sidebar/Home_Button_On.svg\" width=\"18px\"/></button></li>" +
+        "        <li><button onclick='libreria()'><img src=\"../resources/img-sidebar/Bookshelf_Button_Off.svg\" width=\"18px\"/></button></li>" +
+        "        <li><button onclick='medals()'><img src=\"../resources/img-sidebar/Trophy_Button_Off.svg\"  width=\"18px\"/></button></li>" +
+        "        <li><button onclick='testSection()'><img src=\"../resources/img-sidebar/Test_Button_Off.svg\"  width=\"18px\"/></button></li>" +
+        "    </ul>" +
+        "" +
+        "    <div class=\"navbuttons\">" +
+        "        <ul>" +
+        "            <li><button onclick='exit()'><img src=\"../resources/img-sidebar/Logout_Button.png\" width=\"12px\"/></button></li>" +
+        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/></button></li>" +
+        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/></button></li>" +
+        "        </ul>" +
+        "    </div>" +
+        "</nav>";
+
+}
+
+function navbar(){
+
+    let flag = sessionStorage.getItem('navbar');
+
+    if (flag !== null){
+
+        if (flag === "false") {
+
+            document.getElementById("nav").innerHTML =
+                "<nav class=\"sidebar\">" +
+                "    <ul>" +
+                "        <li><button><img class=\"user\" src=\"../resources/img-sidebar/user.png\" width=\"18px\"/></button></li>" +
+                "        <li class=\"open\"><button onclick=\"navOpen()\"><img src=\"../resources/img-sidebar/Open_Sidebar_Off.svg\" width=\"16px\"/></button></li>" +
+                "        <li><button onclick='back()'><img src=\"../resources/img-sidebar/Home_Button_On.svg\" width=\"18px\"/></button></li>" +
+                "        <li><button onclick='libreria()'><img src=\"../resources/img-sidebar/Bookshelf_Button_Off.svg\" width=\"18px\"/></button></li>" +
+                "        <li><button onclick='medals()'><img src=\"../resources/img-sidebar/Trophy_Button_Off.svg\"  width=\"18px\"/></button></li>" +
+                "        <li><button onclick='testSection()'><img src=\"../resources/img-sidebar/Test_Button_Off.svg\"  width=\"18px\"/></button></li>" +
+                "    </ul>" +
+                "" +
+                "    <div class=\"navbuttons\">" +
+                "        <ul>" +
+                "            <li><button onclick='exit()'><img src=\"../resources/img-sidebar/Logout_Button.png\" width=\"12px\"/></button></li>" +
+                "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/></button></li>" +
+                "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/></button></li>" +
+                "        </ul>" +
+                "    </div>" +
+                "</nav>";
+
+        } else {
+
+            navOpen();
+
+        }
+
+    } else {
+
+        navClose();
+
+    }
+}

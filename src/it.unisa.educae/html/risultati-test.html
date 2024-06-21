@@ -4,33 +4,12 @@
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../css/globals.css" />
     <link rel="stylesheet" href="../css/risultati-test.css" />
+    <link rel="stylesheet" href="../css/sidebar.css" />
     <script src = "../js/main.js"></script>
   </head>
   <body>
     <div class="test">
       <div class="div">
-
-        <div class="overlap-3">
-          <div class="nav-bar">
-            <div class="overlap-4">
-              <div class="background-nav-bar"></div>
-              <div class="bottom-nav-bar">
-                <img class="img" src="../resources/img-risultati-test/vector-1.svg" />
-                <img class="switch-nav-bar" src="../resources/img-risultati-test/switch-nav-bar.png" />
-                <img class="switch-nav-bar-2" src="../resources/img-risultati-test/switch-nav-bar-1.png" />
-              </div>
-              <img class="separatore-nav-bar" src="../resources/img-risultati-test/separatore-nav-bar.svg" />
-              <div class="top-nav-bar">
-                <div class="icona-libreria-wrapper"><img class="icona-libreria" src="../resources/img-risultati-test/icona-libreria.png" onclick="libreria()"/></div>
-                <img class="icona-home-utente" src="../resources/img-risultati-test/icona-home-utente.svg" onclick="back()"/>
-                <img class="icona-bacheca" src="../resources/img-risultati-test/icona-bacheca.svg" onclick="medals()"/>
-              </div>
-              <img class="icona-espandi-nav" src="../resources/img-risultati-test/icona-espandi-nav-bar.png" />
-              <img class="immagine-profilo" src="../resources/img-risultati-test/immagine-profilo.png" />
-            </div>
-          </div>
-          <img class="test-svgrepo-com" src="../resources/img-risultati-test/test-svgrepo-com-1.svg" onclick="testSection()"/>
-        </div>
 
         <div style="left: 10%;
                 position: relative;
@@ -84,7 +63,20 @@
           <div class="overlap-11"><div class="text-wrapper-11">20</div></div>
         </div>
 
+        <div id="nav" style="height: 100%; position: absolute; top: 0%; border: transparent; z-index: 1"></div>
+
       </div>
     </div>
   </body>
+
+<script>
+
+  window.onload = (event) => {
+
+    navbar();
+
+  };
+
+</script>
+
 </html>

@@ -225,7 +225,7 @@
   display: grid;
   position: absolute;
   top: 22%;
-  left: 12%;
+  left: 10%;
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 5%;
 
@@ -379,7 +379,7 @@
 .home-utente .text-wrapper-6 {
   position: absolute;
   top: 128px;
-  left: 192px;
+  left: 10%;
   font-family: "JetBrains Mono", Helvetica;
   font-weight: 500;
   color: #1a1a1a;
@@ -391,7 +391,7 @@
 .home-utente .text-wrapper-7 {
   position: absolute;
   top: 414px;
-  left: 192px;
+  left: 10%;
   font-family: "JetBrains Mono", Helvetica;
   font-weight: 500;
   color: #1a1a1a;
