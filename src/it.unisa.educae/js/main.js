@@ -271,3 +271,215 @@ function yellowFilterButton(elemento){
     }
 
 }
+
+function createCard(){
+
+    let risorse = JSON.parse(localStorage.getItem("risorse"));
+    let container = document.getElementById("container");
+
+    for (let risorsa of risorse) {
+
+        let card = document.createElement('div');
+        card.className = 'card-risorsa';
+
+        let abstract = risorsa.abstract;
+
+        card.innerHTML = `
+        <div class="text-wrapper-3" style="top: 68px; left: 12px;">${risorsa.rivista}</div>
+        <div class="text-wrapper-4" style="top: 90px; left: 12px;">${risorsa.nome}</div>
+        <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+            ${risorsa.autori_1}
+            ${risorsa.autori_2}
+            ${risorsa.autori_3}
+        </p>
+
+        <div class="tasto-abstract save" style="top: 17px;" onclick="save(this)">
+            <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+            </div>
+        </div>
+
+        <div class="tasto-abstract" onclick='abstractView(this, "${abstract}", "${risorsa.nome}", "${risorsa.rivista}", "${risorsa.autori_1}", "${risorsa.autori_2}", "${risorsa.autori_3}", "${risorsa.testo}")' style="top: 168px;">
+            <div class="div-wrapper">
+                <div class="text-wrapper-5">Abstract</div>
+            </div>
+        </div>
+        
+        <div class="tasto-abstract" style="left: 157px;" onclick='leggi("${risorsa.testo}", "${risorsa.nome}")'>
+            <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+            </div>
+        </div>
+        
+        <div class="logo-rivista">
+            <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
+        </div>`;
+
+        container.append(card);
+
+    }
+
+}
+
+function create_card_risorse(){
+
+    read_risorse().then(result => {
+
+        let risorseJSON = JSON.stringify(result);
+
+        localStorage.setItem("risorse", risorseJSON);
+
+        createCard();
+
+    })
+
+}
+
+async function read_risorse(){
+
+    try {
+
+        let response = await fetch("../resources/json/risorse.json");
+        const key = "Risorse";
+
+        if (!response.ok) {
+
+            throw new Error('Errore nella richiesta: ' + response.statusText);
+
+        }
+
+        let jsonData = await response.json();
+
+        if (jsonData.hasOwnProperty(key)) {
+
+            return jsonData[key];
+
+        } else {
+
+            console.log("Chiave non trovata nel file JSON.");
+
+        }
+
+    } catch (error) {
+
+        console.error("Errore:", error);
+
+    }
+
+}
+
+function abstractView(element, abstract, nome, rivista, autore1, autore2, autore3, testo){
+
+    element.parentElement.innerHTML = `
+        <div class="text-wrapper-3">${rivista}</div>
+        <div class="text-wrapper-4">${nome}</div>
+        <p class="p">
+            ${abstract}
+        </p>
+        <div class="tasto-abstract" onclick='infoBack(this, "${abstract}", "${nome}", "${rivista}", "${autore1}", "${autore2}", "${autore3}", "${testo}")'>
+            <div class="div-wrapper"><div class="text-wrapper-5">Indietro</div></div>
+        </div>
+        <div class="logo-rivista"><img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" /></div>`;
+
+}
+
+function infoBack(element, abstract, nome, rivista, autore1, autore2, autore3, testo){
+
+    element.parentElement.innerHTML = `
+        <div class="text-wrapper-3" style="top: 68px; left: 12px;">${rivista}</div>
+        <div class="text-wrapper-4" style="top: 90px; left: 12px;">${nome}</div>
+        <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+            ${autore1}
+            ${autore2}
+            ${autore3}
+        </p>
+        <div class="tasto-abstract" onclick='abstractView(this, "${abstract}", "${nome}", "${rivista}", "${autore1}", "${autore2}", "${autore3}", "${testo}")' style="top: 168px;">
+            <div class="div-wrapper">
+                <div class="text-wrapper-5">Abstract</div>
+            </div>
+        </div>
+        <div class="tasto-abstract save" style="top: 17px;" onclick="save(this)">
+            <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+            </div>
+        </div>
+        <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this, "${nome}", "${rivista}", "${autore1}", "${autore2}", "${autore3}", "${testo}")'>
+            <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;" onclick='leggi("${testo}", "${nome}")'>Leggi ></div>
+            </div>
+        </div>
+        <div class="logo-rivista">
+            <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
+        </div>`;
+
+}
+
+function leggi(testo, nome){
+
+    localStorage.setItem('testoPdf', testo);
+    localStorage.setItem('continuaLeggere', nome);
+
+    console.log(nome)
+
+    window.location.href = "../html/risorsa.html";
+
+}
+
+function continuaALeggere(){
+
+    let risorse = JSON.parse(localStorage.getItem("risorse"));
+    let card = document.createElement('div');
+    let container = document.getElementById("container");
+    let nome = localStorage.getItem('continuaLeggere');
+
+    console.log(nome)
+
+    for (let risorsa of risorse) {
+
+        if (nome === risorsa.nome){
+
+            card.className = 'card-risorsa';
+
+            let abstract = risorsa.abstract;
+
+            card.innerHTML = `
+            <div class="text-wrapper-3" style="top: 68px; left: 12px;">${risorsa.rivista}</div>
+            <div class="text-wrapper-4" style="top: 90px; left: 12px;">${risorsa.nome}</div>
+            <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
+                ${risorsa.autori_1}
+                ${risorsa.autori_2}
+                ${risorsa.autori_3}
+            </p>
+    
+            <div class="tasto-abstract save" style="top: 17px;" onclick="save(this)">
+                <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
+                    <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
+                    <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
+                </div>
+            </div>
+    
+            <div class="tasto-abstract" onclick='abstractView(this, "${abstract}", "${risorsa.nome}", "${risorsa.rivista}", "${risorsa.autori_1}", "${risorsa.autori_2}", "${risorsa.autori_3}", "${risorsa.testo}")' style="top: 168px;">
+                <div class="div-wrapper">
+                    <div class="text-wrapper-5">Abstract</div>
+                </div>
+            </div>
+            
+            <div class="tasto-abstract" style="left: 157px;" onclick='leggi("${risorsa.testo}", "${risorsa.nome}")'>
+                <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
+                    <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
+                </div>
+            </div>
+            
+            <div class="logo-rivista">
+                <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
+            </div>`;
+
+            container.append(card);
+
+        }
+
+    }
+
+}

@@ -8,20 +8,37 @@
 
 .home-utente .div {
   background-color: #ffffff;
-  overflow: hidden;
   width: 100%;
   height: 720px;
   position: absolute;
 }
 
+.evidenziato {
+  background-color: yellow;
+}
+
+.premuto{
+
+  filter: invert(1);
+
+}
+
 .pdf{
 
+  position: absolute;
   top: 15%;
   left: 38%;
-  border: #1a1a1a solid 1px;
-  position: absolute;
+  border: 1px solid #1a1a1a;
   width: 416px;
   height: 588px;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #000;
+  text-align: justify;
 
 }
 
@@ -238,6 +255,7 @@
   left: 10%;
   grid-template-columns: repeat(5, 1fr);
   grid-column-gap: 5%;
+  grid-row-gap: 4%;
 
 }
 

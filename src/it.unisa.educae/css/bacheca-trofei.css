@@ -13,6 +13,22 @@
   position: absolute;
 }
 
+.header{
+
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
+}
+
 .bacheca .card-risorsa {
   top: 163px;
   left: 192px;

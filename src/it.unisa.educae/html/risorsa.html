@@ -2,10 +2,13 @@
 <html>
 <head>
   <meta charset="utf-8" />
+
   <link rel="stylesheet" href="../css/globals.css" />
   <link rel="stylesheet" href="../css/home-utente.css" />
   <link rel="stylesheet" href="../css/sidebar.css" />
+
   <script src = "../js/main.js"></script>
+
 </head>
 
 <body>
@@ -15,6 +18,13 @@
   <div class="div">
 
     <header class="header">
+
+      <div style="display: contents">
+
+        <img src="../resources/Educae_Logo.svg">
+        <p style="position: relative; left: 10px;">eduCAE</p>
+
+      </div>
 
       <div class="div-wrapper" style="background-color: #e5e5e5; width: 377px; height: 24px; left: 38%; border-color: transparent; border-radius: 10px;">
 
@@ -28,6 +38,23 @@
     <div id="yellowFilter" style="display: none"></div>
 
     <div class="pdf"></div>
+
+    <div id="nota" style="width: 215.8px; display: none; height: 236px; background-color: #F3E895; border-radius: 8px; position: absolute; top: 31%; left: 66%;">
+
+      <textarea rows="4" cols="50" id="notes" style="width: 195.8px; height: 155px; background-color: transparent; resize: none; border-color: transparent; margin-bottom: 20px; top: 20px; position: relative; left: 10px; right: 10px; outline: none;"></textarea>
+
+      <button onclick="closeNote()" style="width: 60px; height: 23px; background-color: transparent; border: #1a1a1a solid 1px; border-radius: 3px; position: relative; top: 10%; left: 6%;">Chiudi</button>
+      <button style="width: 60px; height: 23px; background-color: #F24848; border-color: transparent; border-radius: 3px; position: relative; top: 10%; left: 35%; color: #e5e5e5;">Elimina</button>
+
+    </div>
+
+    <div style="top: 15%; left: 66%; width: 38px; height: 101px; background-color: #1a1a1a; position: absolute; border-radius: 8px; display: flex; align-items: center; justify-content: space-evenly; flex-direction: column;">
+
+      <img class="pulsante" onclick="generatePDF(this)" style="height: 24px; width: 24px;" src="../resources/Print_Button_Off.svg">
+      <img class="pulsante nota" style="height: 24px; width: 24px;" src="../resources/Note_Button_Off.svg">
+      <img class="pulsante" onclick="evidenziaTesto(this)" style="height: 24px; width: 24px;" src="../resources/Highlither_Button_Off.svg">
+
+    </div>
 
     <div id="nav" style="height: 100%; position: absolute; top: 0%; border: transparent; z-index: 1"></div>
 
@@ -44,6 +71,95 @@
     navbar();
 
   };
+
+  document.addEventListener("DOMContentLoaded", function() {
+
+    let testo = localStorage.getItem('testoPdf');
+
+    if (testo) {
+
+      document.querySelector(".pdf").innerHTML = testo;
+
+    } else {
+
+      console.error('Testo non trovato nello storage locale.');
+
+    }
+
+    localStorage.removeItem('testoPdf');
+
+  });
+
+  function evidenziaTesto(elemento) {
+
+    let selection = window.getSelection();
+
+    for (let pulsante of document.querySelectorAll(".pulsante")) {
+
+      pulsante.classList.remove("premuto");
+
+    }
+
+    elemento.classList.add("premuto");
+
+    if (selection.rangeCount > 0) {
+
+      let range = selection.getRangeAt(0);
+      let span = document.createElement('span');
+
+      span.className = 'evidenziato';
+      span.textContent = range.toString();
+
+      span.addEventListener("click", function() {
+
+        nota(span.innerText);
+
+      });
+
+      range.deleteContents();
+      range.insertNode(span);
+
+    }
+
+  }
+
+  function nota(key){
+
+    let elemento = document.querySelector(".nota");
+
+    for (let pulsante of document.querySelectorAll(".pulsante")) {
+
+      pulsante.classList.remove("premuto");
+
+    }
+
+    elemento.classList.add("premuto");
+
+    if (localStorage.getItem(key) !== null){
+
+      let text = localStorage.getItem(key);
+
+      document.getElementById("nota").style.display = "block";
+      document.getElementById("notes").innerText = text;
+
+    } else {
+
+      document.getElementById("nota").style.display = "block";
+      localStorage.setItem("activeNotes", key);
+
+    }
+
+  }
+
+  function closeNote(){
+
+    let key = localStorage.getItem("activeNotes");
+
+    localStorage.setItem(key, document.getElementById("notes").innerText);
+
+    document.getElementById("nota").style.display = "none";
+
+  }
 
 </script>
 

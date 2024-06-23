@@ -173,6 +173,20 @@ function addTwoMinutes(element) {
 
 }
 
+function dupeMinutes(element) {
+
+    remainingSeconds += remainingSeconds;
+
+    const timerElement = document.getElementById('timer');
+    const minutes = Math.floor(remainingSeconds / 60);
+    const seconds = remainingSeconds % 60;
+
+    timerElement.textContent = `${minutes}:${seconds < 10 ? '0' : ''}${seconds}`;
+
+    element.classList.add('disabled');
+
+}
+
 function fifty(elemento){
 
     let key = parseInt(document.getElementById("count").innerText) - 1;

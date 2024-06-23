@@ -515,6 +515,9 @@
   left: 936px;
   background-color: #f2f2f2;
   border-radius: 8.09px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .test .text-wrapper-11 {
@@ -537,6 +540,9 @@
   left: 936px;
   background-color: #f2f2f2;
   border-radius: 8.09px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .test .text-wrapper-12 {
@@ -559,6 +565,9 @@
   left: 936px;
   background-color: #f2f2f2;
   border-radius: 8.09px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .test .overlap-11 {
@@ -569,6 +578,9 @@
   left: 936px;
   background-color: #f2f2f2;
   border-radius: 8.09px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
 .test .overlap-group-wrapper {
@@ -624,6 +636,22 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.header{
+
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  background: #fff;
+  width: 100%;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+
 }
 
 .answerResult{

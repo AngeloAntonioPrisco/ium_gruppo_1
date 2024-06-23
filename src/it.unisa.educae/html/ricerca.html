@@ -15,6 +15,13 @@
 
     <header class="header">
 
+      <div style="display: contents">
+
+        <img src="../resources/Educae_Logo.svg">
+        <p style="position: relative; left: 10px;">eduCAE</p>
+
+      </div>
+
       <div class="div-wrapper" style="background-color: #e5e5e5; width: 377px; height: 24px; left: 38%; border-color: transparent; border-radius: 10px;">
 
         <input type="text" style="background-color: transparent; position: relative; border: transparent; width: 100%; height: 100%;">
@@ -26,105 +33,7 @@
 
     <div id="yellowFilter" style="display: none"></div>
 
-    <div class = "container" id="container">
-
-      <div class="card-risorsa">
-        <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-        <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-        <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-          Hon Ki Tsang
-          Ana Carcia Armada
-          Wonjae Shin
-        </p>
-
-        <div class="tasto-abstract .save" style="top: 17px;" onclick="save(this)">
-          <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-            <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-            <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
-          </div>
-        </div>
-
-        <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-          <div class="div-wrapper">
-            <div class="text-wrapper-5">Abstract</div>
-          </div>
-        </div>
-        <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-          <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-            <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
-          </div>
-        </div>
-        <div class="logo-rivista">
-          <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
-        </div>
-      </div>
-
-      <div class="card-risorsa">
-
-        <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-        <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-        <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-          Hon Ki Tsang
-          Ana Carcia Armada
-          Wonjae Shin
-        </p>
-
-        <div class="tasto-abstract .save" style="top: 17px;" onclick="save(this)">
-          <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-            <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-            <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
-          </div>
-        </div>
-
-        <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-          <div class="div-wrapper">
-            <div class="text-wrapper-5">Abstract</div>
-          </div>
-        </div>
-
-        <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-          <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-            <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
-          </div>
-        </div>
-
-      </div>
-
-      <div class="card-risorsa">
-
-        <div class="text-wrapper-3" style="top: 68px; left: 12px;">IEEE Xplore</div>
-        <div class="text-wrapper-4" style="top: 90px; left: 12px;">Next-Generation Health</div>
-        <p class="p" style="white-space: pre-line; top: 96px; left: 13px;">
-          Hon Ki Tsang
-          Ana Carcia Armada
-          Wonjae Shin
-        </p>
-        <div class="tasto-abstract .save" style="top: 17px;" onclick="save(this)">
-          <div class="div-wrapper" style="background-color: #e5e5e5; width: 48px; border-color: transparent">
-            <div class="text-wrapper-5" style="color: #1a1a1a; left: 8px;">Salva</div>
-            <img src="../resources/img-home/bookmark-svgrepo-com%201salva.png" style="width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;">
-          </div>
-        </div>
-
-        <div class="tasto-abstract" onclick='abstractView(this)' style="top: 168px;">
-          <div class="div-wrapper">
-            <div class="text-wrapper-5">Abstract</div>
-          </div>
-        </div>
-
-        <div class="tasto-abstract" style="left: 157px;" onclick='infoBack(this)'>
-          <div class="div-wrapper" style="background-color: #1a1a1a; width: 48px;">
-            <div class="text-wrapper-5" style="color: #e5e5e5; left: 8px;">Leggi ></div>
-          </div>
-        </div>
-
-        <div class="logo-rivista">
-          <img class="logo-ieee" src="../resources/img-home/logo-ieee-1.svg" />
-        </div>
-
-      </div>
-
-    </div>
+    <div class = "container" id="container"></div>
 
     <div class="text-wrapper-6">Risultati</div>
 
@@ -136,53 +45,6 @@
 
 <script>
 
-  function abstractView(element){
-
-    element.parentElement.innerHTML = "<div class=\"text-wrapper-3\">IEEE Xplore</div>" +
-            "          <div class=\"text-wrapper-4\">Next-Generation Health</div>" +
-            "          <p class=\"p\">" +
-            "            This review paper provides a comprehensive overview, discusses challenges and opportunities, and indicates" +
-            "            future directions for: (a) enabling technologies needed to make body area sensing and stimulation a reality," +
-            "            and (b) emerging bioelectromagnetics applications that may readily benefit from such technologies." +
-            "          </p>" +
-            "          <div class=\"tasto-abstract\" onclick='infoBack(this)'>" +
-            "            <div class=\"div-wrapper\"><div class=\"text-wrapper-5\">Indietro</div></div>" +
-            "          </div>" +
-            "          <div class=\"logo-rivista\"><img class=\"logo-ieee\" src=\"../resources/img-home/logo-ieee-1.svg\" /></div>";
-
-  }
-
-  function infoBack(element){
-
-    element.parentElement.innerHTML = " <div class=\"text-wrapper-3\" style=\"top: 68px; left: 12px;\">IEEE Xplore</div>" +
-            "          <div class=\"text-wrapper-4\" style=\"top: 90px; left: 12px;\">Next-Generation Health</div>" +
-            "          <p class=\"p\" style=\"white-space: pre-line; top: 106.2px; left: 13px;\">" +
-            "            Hon Ki Tsang <br>" +
-            "            Ana Carcia Armada <br>" +
-            "            Wonjae Shin <br>" +
-            "          </p>" +
-            "          <div class=\"tasto-abstract\" onclick='abstractView(this)' style=\"top: 168px;\">" +
-            "            <div class=\"div-wrapper\">" +
-            "              <div class=\"text-wrapper-5\">Abstract</div>" +
-            "            </div>" +
-            "          </div>" +
-            "          <div class=\"tasto-abstract\" style=\"top: 17px;\">" +
-            "            <div class=\"div-wrapper\" style=\"background-color: #e5e5e5; width: 48px; border-color: transparent\">" +
-            "              <div class=\"text-wrapper-5\" style=\"color: #1a1a1a; left: 8px;\">Salva</div>" +
-            "              <img src=\"../resources/img-home/bookmark-svgrepo-com%201salva.png\" style=\"width: 8.9px; top: 1.2px; height: 8.58px; position: relative; left: 31px;\">" +
-            "            </div>" +
-            "          </div>" +
-            "          <div class=\"tasto-abstract\" style=\"left: 157px;\" onclick='infoBack(this)'>" +
-            "            <div class=\"div-wrapper\" style=\"background-color: #1a1a1a; width: 48px;\">" +
-            "              <div class=\"text-wrapper-5\" style=\"color: #e5e5e5; left: 8px;\">Leggi ></div>" +
-            "            </div>" +
-            "          </div>" +
-            "          <div class=\"logo-rivista\">" +
-            "            <img class=\"logo-ieee\" src=\"../resources/img-home/logo-ieee-1.svg\" />" +
-            "          </div>"
-
-  }
-
   function cerca(){
 
     window.location.href = "../html/ricerca.html";
@@ -191,6 +53,7 @@
 
   window.onload = (event) => {
 
+    create_card_risorse();
     navbar();
 
     document.querySelectorAll(".save").forEach(element => {
