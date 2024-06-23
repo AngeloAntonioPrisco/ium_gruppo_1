@@ -20,7 +20,9 @@ nella propria bacheca personale.
 
 # Avvio
 
-Per poter visualizzare il risultato finale basterà individuare nella struttura del progetto il file denominato auth-home.html e fare doppio click.
+Per poter visualizzare il risultato finale basterà scaricare il file .zip del progetto, estrarlo ed aprirlo con Intellij IDEA.
+Successivamente sempre su Intellij IDEA dovrà essere selezionato il file auth-home.html.
+Una volta aperta la pagina basterà cliccare su "Accedi" per avere accesso alle funzionalità del sistema.
 
 # Built With
 
