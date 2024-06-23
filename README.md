@@ -1,6 +1,6 @@
 <p align="center"><img src="https://i.postimg.cc/QCX7D4LC/Git-4x.png' border='0' alt='Git-4x'/></a>" alt="EDUcae_Logo" height="400"></p>
 
-# Quixel Texel
+# EDUcae
 
 EDUcae si pone l’obiettivo di garantire a chiunque, in particolar modo chi non può
 permettersi un corso di studi, di accedere gratuitamente a del materiale open-source per studiare
