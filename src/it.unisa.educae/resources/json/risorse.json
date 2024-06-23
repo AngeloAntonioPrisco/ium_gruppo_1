@@ -1,0 +1,274 @@
+{
+  "Risorse": [
+    {
+      "nome": "Next-Generation Health",
+      "autori_1": "Hon Ki Tsang",
+      "autori_2": "Ana Carcia Armada",
+      "autori_3": "Wonkae Shin",
+      "abstract": "This review paper provides a comprehensive overview, discusses challenges and opportunities, and indicates future directions for: (a) enabling technologies needed to make body area sensing and stimulation a reality, and (b) emerging bioelectromagnetics applications that may readily benefit from such technologies.",
+      "data": "16/05/25",
+      "rivista": "IEEE Xplore"
+    },
+    {
+      "nome": "AI in Medical Diagnostics",
+      "autori_1": "John Smith",
+      "autori_2": "Emily Johnson",
+      "autori_3": "Ahmed Khan",
+      "abstract": "An in-depth analysis of how artificial intelligence is revolutionizing medical diagnostics, focusing on machine learning algorithms, imaging techniques, and potential future developments.",
+      "data": "18/07/12",
+      "rivista": "Nature Medicine"
+    },
+    {
+      "nome": "Advances in Telemedicine",
+      "autori_1": "Maria Rossi",
+      "autori_2": "Luca Bianchi",
+      "autori_3": "Sophia Liu",
+      "abstract": "This article explores the latest advances in telemedicine technologies, the impact on patient care, and the integration of remote monitoring systems in healthcare.",
+      "data": "19/09/10",
+      "rivista": "The Lancet"
+    },
+    {
+      "nome": "Wearable Health Devices",
+      "autori_1": "David Lee",
+      "autori_2": "Sarah Brown",
+      "autori_3": "Kenji Yamamoto",
+      "abstract": "A comprehensive study on the development and application of wearable health devices, discussing the sensors used, data collection methods, and privacy concerns.",
+      "data": "20/03/18",
+      "rivista": "Journal of Medical Internet Research"
+    },
+    {
+      "nome": "Blockchain in Healthcare",
+      "autori_1": "Alice Martin",
+      "autori_2": "Nicolas Dupont",
+      "autori_3": "Ming Zhao",
+      "abstract": "An examination of blockchain technology's potential to enhance security, transparency, and efficiency in healthcare data management and patient records.",
+      "data": "21/11/05",
+      "rivista": "IEEE Access"
+    },
+    {
+      "nome": "Nanotechnology in Medicine",
+      "autori_1": "Carlos Gonzalez",
+      "autori_2": "Fiona Clark",
+      "autori_3": "Raj Patel",
+      "abstract": "The paper discusses the use of nanotechnology in medicine, highlighting recent breakthroughs, applications in drug delivery, and potential risks.",
+      "data": "22/01/30",
+      "rivista": "Advanced Healthcare Materials"
+    },
+    {
+      "nome": "3D Printing in Healthcare",
+      "autori_1": "Linda Harris",
+      "autori_2": "Tom Green",
+      "autori_3": "Yuki Tanaka",
+      "abstract": "Explores how 3D printing technology is transforming healthcare, including custom prosthetics, tissue engineering, and surgical planning.",
+      "data": "21/06/20",
+      "rivista": "Science Translational Medicine"
+    },
+    {
+      "nome": "Genomics and Personalized Medicine",
+      "autori_1": "Omar Ali",
+      "autori_2": "Hannah Williams",
+      "autori_3": "Katrina Novak",
+      "abstract": "A detailed look at how genomics is paving the way for personalized medicine, focusing on genome sequencing technologies and tailored treatments.",
+      "data": "22/05/14",
+      "rivista": "Genetics in Medicine"
+    },
+    {
+      "nome": "CRISPR and Gene Editing",
+      "autori_1": "Ethan Black",
+      "autori_2": "Yara Silva",
+      "autori_3": "Hans Müller",
+      "abstract": "Discusses the revolutionary CRISPR gene-editing technology, its current applications, ethical considerations, and future potential in genetic diseases.",
+      "data": "20/10/11",
+      "rivista": "Nature Biotechnology"
+    },
+    {
+      "nome": "Robotics in Surgery",
+      "autori_1": "Michael Taylor",
+      "autori_2": "Isabella Moore",
+      "autori_3": "Hiroshi Nakamura",
+      "abstract": "An analysis of robotic systems in surgical procedures, the benefits of precision and minimally invasive techniques, and ongoing advancements.",
+      "data": "19/12/08",
+      "rivista": "Surgical Endoscopy"
+    },
+    {
+      "nome": "Augmented Reality in Medicine",
+      "autori_1": "Daniel White",
+      "autori_2": "Laura Green",
+      "autori_3": "Oscar Martinez",
+      "abstract": "Examines the use of augmented reality in medical training and practice, including its applications in surgery, diagnostics, and patient education.",
+      "data": "18/08/22",
+      "rivista": "Journal of Medical Visualization"
+    },
+    {
+      "nome": "Bioinformatics and Big Data",
+      "autori_1": "Rachel Kim",
+      "autori_2": "Markus Schmidt",
+      "autori_3": "Elena Garcia",
+      "abstract": "A comprehensive review of bioinformatics, focusing on big data analytics in healthcare, the challenges of data integration, and future trends.",
+      "data": "21/02/15",
+      "rivista": "Bioinformatics"
+    },
+    {
+      "nome": "Stem Cell Therapies",
+      "autori_1": "Viktor Ivanov",
+      "autori_2": "Grace Lee",
+      "autori_3": "Ahmed El-Sayed",
+      "abstract": "Discusses the advancements in stem cell research, therapeutic applications, ethical issues, and the potential for regenerative medicine.",
+      "data": "19/11/29",
+      "rivista": "Cell Stem Cell"
+    },
+    {
+      "nome": "Bioprinting Tissues and Organs",
+      "autori_1": "Nancy Scott",
+      "autori_2": "Wei Zhang",
+      "autori_3": "Paulo Souza",
+      "abstract": "An exploration of bioprinting technologies, their use in creating tissues and organs for transplantation, and the challenges facing the field.",
+      "data": "21/03/12",
+      "rivista": "Biofabrication"
+    },
+    {
+      "nome": "Smartphone Health Apps",
+      "autori_1": "Julie Adams",
+      "autori_2": "Lorenzo Moretti",
+      "autori_3": "Mei Wong",
+      "abstract": "Analyzes the proliferation of smartphone health apps, their effectiveness in promoting wellness, data privacy concerns, and regulatory challenges.",
+      "data": "20/04/25",
+      "rivista": "JMIR mHealth and uHealth"
+    },
+    {
+      "nome": "Remote Patient Monitoring",
+      "autori_1": "Zachary Miller",
+      "autori_2": "Victoria King",
+      "autori_3": "Igor Petrov",
+      "abstract": "This paper reviews remote patient monitoring technologies, their impact on chronic disease management, and the integration with telehealth services.",
+      "data": "19/07/13",
+      "rivista": "Telemedicine and e-Health"
+    },
+    {
+      "nome": "Artificial Organs",
+      "autori_1": "Brian Anderson",
+      "autori_2": "Nina Rodriguez",
+      "autori_3": "Jin Park",
+      "abstract": "Explores the development and use of artificial organs, such as synthetic hearts and kidneys, focusing on engineering challenges and clinical applications.",
+      "data": "22/06/21",
+      "rivista": "Journal of Artificial Organs"
+    },
+    {
+      "nome": "Biohybrid Systems",
+      "autori_1": "Olga Petrova",
+      "autori_2": "Samuel Johnson",
+      "autori_3": "Chiara Rossi",
+      "abstract": "A look into biohybrid systems combining biological and synthetic components, their potential medical applications, and the future of biomedical engineering.",
+      "data": "20/12/07",
+      "rivista": "Biomedical Engineering"
+    },
+    {
+      "nome": "Quantum Computing in Genomics",
+      "autori_1": "David Novak",
+      "autori_2": "Emily Zhang",
+      "autori_3": "Sofia Alvarez",
+      "abstract": "Examines the potential of quantum computing in genomics, including faster data processing, solving complex genetic problems, and future prospects.",
+      "data": "21/01/16",
+      "rivista": "Quantum Information Processing"
+    },
+    {
+      "nome": "Nutrigenomics and Health",
+      "autori_1": "Laura Chen",
+      "autori_2": "Pedro Martinez",
+      "autori_3": "Anna Kowalski",
+      "abstract": "Discusses the field of nutrigenomics, how genetic variations influence diet response, and the implications for personalized nutrition and health.",
+      "data": "19/05/09",
+      "rivista": "Nutrition and Metabolism"
+    },
+    {
+      "nome": "Virtual Reality for Pain Management",
+      "autori_1": "Henry Walker",
+      "autori_2": "Yasmin Khan",
+      "autori_3": "Leonardo Costa",
+      "abstract": "Analyzes the use of virtual reality in pain management, focusing on therapeutic applications, patient outcomes, and future directions in treatment.",
+      "data": "22/03/14",
+      "rivista": "Pain Medicine"
+    },
+    {
+      "nome": "Synthetic Biology in Healthcare",
+      "autori_1": "Alice White",
+      "autori_2": "Michael Hernandez",
+      "autori_3": "Yuki Suzuki",
+      "abstract": "Explores the role of synthetic biology in healthcare, including the creation of synthetic organisms for drug development and therapeutic applications.",
+      "data": "20/05/02",
+      "rivista": "ACS Synthetic Biology"
+    },
+    {
+      "nome": "Health Data Interoperability",
+      "autori_1": "James Wilson",
+      "autori_2": "Eva Martinez",
+      "autori_3": "Chang Liu",
+      "abstract": "This paper discusses the challenges and solutions related to health data interoperability, focusing on standards, data exchange, and patient care improvements.",
+      "data": "21/04/11",
+      "rivista": "Journal of the American Medical Informatics Association"
+    },
+    {
+      "nome": "Precision Oncology",
+      "autori_1": "Sara Brown",
+      "autori_2": "Carlos Moreno",
+      "autori_3": "Ingrid Wang",
+      "abstract": "A comprehensive review of precision oncology, discussing targeted therapies based on genetic profiling, clinical trials, and future prospects in cancer treatment.",
+      "data": "20/09/19",
+      "rivista": "Cancer Research"
+    },
+    {
+      "nome": "Internet of Medical Things",
+      "autori_1": "Kevin Harris",
+      "autori_2": "Rebecca Lee",
+      "autori_3": "Daisuke Tanaka",
+      "abstract": "Examines the Internet of Medical Things (IoMT), its impact on healthcare delivery, the integration of connected devices, and associated security issues.",
+      "data": "21/08/26",
+      "rivista": "IEEE Internet of Things Journal"
+    },
+    {
+      "nome": "Digital Therapeutics",
+      "autori_1": "Melissa Green",
+      "autori_2": "Felix Schneider",
+      "autori_3": "Aisha Abdullah",
+      "abstract": "An overview of digital therapeutics, their role in disease prevention and management, regulatory considerations, and future trends in digital health.",
+      "data": "22/02/17",
+      "rivista": "Digital Medicine"
+    },
+    {
+      "nome": "Regenerative Medicine",
+      "autori_1": "George Thompson",
+      "autori_2": "Isabel Garcia",
+      "autori_3": "Hiroshi Yamada",
+      "abstract": "Discusses the principles and applications of regenerative medicine, including stem cell therapy, tissue engineering, and clinical advancements.",
+      "data": "20/07/15",
+      "rivista": "Regenerative Medicine"
+    },
+    {
+      "nome": "Machine Learning in Drug Discovery",
+      "autori_1": "Emma Wilson",
+      "autori_2": "Liam Brown",
+      "autori_3": "Sophie Nguyen",
+      "abstract": "Explores the use of machine learning in drug discovery, highlighting algorithmic approaches, case studies, and the potential to accelerate the development process.",
+      "data": "21/10/05",
+      "rivista": "Drug Discovery Today"
+    },
+    {
+      "nome": "Pediatric Telehealth",
+      "autori_1": "Benjamin Scott",
+      "autori_2": "Olivia Turner",
+      "autori_3": "Jing Zhao",
+      "abstract": "A detailed look at the implementation and benefits of pediatric telehealth services, the challenges faced, and the future of virtual care for children.",
+      "data": "19/06/01",
+      "rivista": "Pediatrics"
+    },
+    {
+      "nome": "Cybersecurity in Healthcare",
+      "autori_1": "Christine Lopez",
+      "autori_2": "David Evans",
+      "autori_3": "Alisha Patel",
+      "abstract": "Discusses the importance of cybersecurity in healthcare, common threats, strategies for protection, and the impact on patient safety and data integrity.",
+      "data": "22/04/22",
+      "rivista": "Health IT Security"
+    }
+  ]
+}

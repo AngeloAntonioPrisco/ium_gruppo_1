@@ -5,7 +5,9 @@
     <link rel="stylesheet" href="../css/globals.css" />
     <link rel="stylesheet" href="../css/risultati-test.css" />
     <link rel="stylesheet" href="../css/sidebar.css" />
+
     <script src = "../js/main.js"></script>
+    <script src = "../js/test.js"></script>
   </head>
   <body>
     <div class="test">
@@ -16,38 +18,8 @@
                 top: -4%;">
 
           <div class="text-wrapper-3">Risultati</div>
-          <div class="overlap-5">
-            <div class="text-wrapper-4">Yes</div>
-            <div class="text-wrapper-5">No</div>
-            <div class="group">
-              <div class="div-wrapper"><div class="text-wrapper-6">Risposta 5. Yes</div></div>
-            </div>
-          </div>
-          <div class="overlap-6">
-            <p class="yes-but-only-under">Yes, but only under<br/>certain conditions</p>
-            <div class="group">
-              <div class="overlap-7"><div class="text-wrapper-6">Risposta 7. Lorem ipsum</div></div>
-            </div>
-            <div class="overlap-wrapper">
-              <div class="overlap-7"><p class="text-wrapper-6">Risposta 8. Dolor sit amet</p></div>
-            </div>
-          </div>
 
-          <div class="overlap-group-wrapper">
-            <div class="div-wrapper"><div class="text-wrapper-6">Risposta 1. Yes</div></div>
-          </div>
-          <div class="group-2">
-            <div class="overlap-7"><div class="text-wrapper-6">Risposta 3. Maybe</div></div>
-          </div>
-          <div class="group-3">
-            <div class="overlap-7"><div class="text-wrapper-6">Risposta 2. No</div></div>
-          </div>
-          <div class="group-4">
-            <div class="overlap-7"><div class="text-wrapper-6">Risposta 6. No</div></div>
-          </div>
-          <div class="group-5">
-            <div class="div-wrapper"><div class="text-wrapper-6">Risposta 4. Yes</div></div>
-          </div>
+          <div id="container" style="top: 158px; left: 12%; position: absolute;"></div>
 
         </div>
 
@@ -57,10 +29,10 @@
           <div class="text-wrapper-8">Risposte errate</div>
           <div class="text-wrapper-9">Risposte non date</div>
           <div class="text-wrapper-10">Risposte corrette</div>
-          <div class="overlap-8"><div class="text-wrapper-11">30</div></div>
-          <div class="overlap-9"><div class="text-wrapper-12">5</div></div>
-          <div class="overlap-10"><div class="text-wrapper-12">5</div></div>
-          <div class="overlap-11"><div class="text-wrapper-11">20</div></div>
+          <div class="overlap-8" id="numero"><div class="text-wrapper-11">30</div></div>
+          <div class="overlap-9" id="wrong"><div class="text-wrapper-12">5</div></div>
+          <div class="overlap-10" id="nondate"><div class="text-wrapper-12">5</div></div>
+          <div class="overlap-11" id="giuste"><div class="text-wrapper-11">20</div></div>
         </div>
 
         <div id="nav" style="height: 100%; position: absolute; top: 0%; border: transparent; z-index: 1"></div>
@@ -74,6 +46,7 @@
   window.onload = (event) => {
 
     navbar();
+    results();
 
   };
 

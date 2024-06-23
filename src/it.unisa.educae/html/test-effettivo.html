@@ -1,13 +1,19 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
   <meta charset="utf-8" />
+
   <link rel="stylesheet" href="../css/globals.css" />
   <link rel="stylesheet" href="../css/test_effettivo.css" />
   <link rel="stylesheet" href="../css/sidebar.css" />
+
   <script src = "../js/main.js"></script>
   <script src = "../js/test.js"></script>
+
 </head>
+
 <body>
 <div class="test">
   <div class="div">
@@ -19,43 +25,57 @@
                 top: -4%;">
 
       <div class="overlap-5">
+
         <div class="card-risorsa">
+
           <div class="overlap-6">
+
             <div class="text-wrapper-3">IEEE Xplore</div>
             <div class="text-wrapper-4">Next-Generation Health</div>
             <div class="text-wrapper-5">16/05/2025</div>
             <div class="logo-rivista"><img class="logo-ieee" src="../resources/img-test_autovalutativo/logo-ieee.svg" /></div>
+
           </div>
-          <div class="backgroung" style="justify-content: flex-start; display: flex;"><div class="text-wrapper-7" id="answer1" style="position: relative; top: 40%; left: 34%;"></div></div>
-          <div class="backgroung-2" style="justify-content: flex-start; display: flex;"><div class="yes-but-only-under" id="answer2" style="position: relative; top: 40%; left: 34%;"></div></div>
-          <div class="backgroung-3" style="justify-content: flex-start; display: flex;"><div class="no-but-only-under" id="answer3" style="position: relative; top: 40%; left: 34%;"></div></div>
-          <div class="backgroung-4" style="justify-content: flex-start; display: flex;"><div class="text-wrapper-8" id="answer4" style="position: relative; top: 40%; left: 34%;"></div></div>
+
+          <div class="backgroung domande" style="justify-content: flex-start; display: flex;" onclick="giveAnswer(this)"><div class="text-wrapper-7" id="answer1" style="position: relative; top: 40%; left: 34%;"></div></div>
+          <div class="backgroung-2 domande" style="justify-content: flex-start; display: flex;" onclick="giveAnswer(this)"><div class="yes-but-only-under" id="answer2" style="position: relative; top: 40%; left: 34%;"></div></div>
+          <div class="backgroung-3 domande" style="justify-content: flex-start; display: flex;" onclick="giveAnswer(this)"><div class="no-but-only-under" id="answer3" style="position: relative; top: 40%; left: 34%;"></div></div>
+          <div class="backgroung-4 domande" style="justify-content: flex-start; display: flex;" onclick="giveAnswer(this)"><div class="text-wrapper-8" id="answer4" style="position: relative; top: 40%; left: 34%;"></div></div>
+
         </div>
+
         <p class="p" id="questions"></p>
+
       </div>
 
       <div class="text-wrapper-6">Test</div>
 
       <div style="position: relative;
                   left: 10%;">
+
         <div class="overlap-7" onclick="finish()">
           <div class="backgroung-5"></div>
           <div class="text-wrapper-9">Termina</div>
         </div>
+
         <div class="text-wrapper-10">Timer</div>
         <div class="text-wrapper-11">Domanda</div>
-        <div class="div-wrapper"><div class="text-wrapper-13">21:15</div></div>
+        <div class="div-wrapper"><div class="text-wrapper-13" id="timer">21:00</div></div>
+
         <div class="overlap-8">
           <div class="text-wrapper-14" id = "count">1</div>
           <img class="icona-torna-indietro-2" src="../resources/img-test_autovalutativo/icona-torna-indietro-1.svg" onclick="change('indietro')"/>
           <img class="icona-torna-indietro-3" src="../resources/img-test_autovalutativo/icona-torna-indietro-2.svg" onclick="change('avanti')"/>
         </div>
+
       </div>
 
     </div>
 
   </div>
+
 </div>
+
 </body>
 
 <script>
@@ -64,6 +84,7 @@
 
     store_domande()
     navbar();
+    startTimer(1260);
 
   };
 

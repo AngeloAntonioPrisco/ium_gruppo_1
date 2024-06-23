@@ -1,37 +1,86 @@
 {
-
   "questions": [
 
     {
-
-      "Domanda": "Domanda di prova",
-      "Risposta_uno": "Risposta uno",
-      "Risposta_due": "Risposta due",
-      "Risposta_tre": "Risposta tre",
-      "Risposta_quattro": "Risposta quattro"
-
+      "Domanda": "Che cos'è la programmazione orientata agli oggetti?",
+      "Risposta_uno": "Tabelle",
+      "Risposta_due": "Paradigma",
+      "Risposta_tre": "Sistema",
+      "Risposta_quattro": "Libreria",
+      "Risposta_corretta": "Paradigma"
     },
 
     {
-
-      "Domanda": "Domanda di prova uno",
-      "Risposta_uno": "Risposta uno",
-      "Risposta_due": "Risposta due",
-      "Risposta_tre": "Risposta tre",
-      "Risposta_quattro": "Risposta quattro"
-
+      "Domanda": "Quale dei seguenti è un principio fondamentale della OOP?",
+      "Risposta_uno": "Recursione",
+      "Risposta_due": "Astrazione",
+      "Risposta_tre": "Pipeline",
+      "Risposta_quattro": "Multithreading",
+      "Risposta_corretta": "Astrazione"
     },
 
     {
+      "Domanda": "Che cos'è una classe in OOP?",
+      "Risposta_uno": "Dato",
+      "Risposta_due": "Struttura",
+      "Risposta_tre": "Modello",
+      "Risposta_quattro": "Ciclo",
+      "Risposta_corretta": "Modello"
+    },
 
-      "Domanda": "Domanda di prova due",
-      "Risposta_uno": "Risposta uno",
-      "Risposta_due": "Risposta due",
-      "Risposta_tre": "Risposta tre",
-      "Risposta_quattro": "Risposta quattro"
+    {
+      "Domanda": "Che cos'è un oggetto in OOP?",
+      "Risposta_uno": "Variabile",
+      "Risposta_due": "Istanza",
+      "Risposta_tre": "Commento",
+      "Risposta_quattro": "Libreria",
+      "Risposta_corretta": "Istanza"
+    },
 
+    {
+      "Domanda": "Quale termine descrive il concetto di nascondere i dettagli interni di un oggetto?",
+      "Risposta_uno": "Polimorfismo",
+      "Risposta_due": "Ereditarietà",
+      "Risposta_tre": "Incapsulamento",
+      "Risposta_quattro": "Casting",
+      "Risposta_corretta": "Incapsulamento"
+    },
+
+    {
+      "Domanda": "Quale concetto OOP permette di definire una classe derivata che eredita proprietà e comportamenti da una classe base?",
+      "Risposta_uno": "Polimorfismo",
+      "Risposta_due": "Incapsulamento",
+      "Risposta_tre": "Ereditarietà",
+      "Risposta_quattro": "Modularità",
+      "Risposta_corretta": "Ereditarietà"
+    },
+
+    {
+      "Domanda": "Che cosa è il polimorfismo in OOP?",
+      "Risposta_uno": "Supporto",
+      "Risposta_due": "Interfaccia",
+      "Risposta_tre": "Funzione",
+      "Risposta_quattro": "Variabili",
+      "Risposta_corretta": "Interfaccia"
+    },
+
+    {
+      "Domanda": "Quale keyword viene utilizzata in molti linguaggi OOP per creare un'istanza di una classe?",
+      "Risposta_uno": "class",
+      "Risposta_due": "new",
+      "Risposta_tre": "this",
+      "Risposta_quattro": "instance",
+      "Risposta_corretta": "new"
+    },
+
+    {
+      "Domanda": "Che cosa è un costruttore in OOP?",
+      "Risposta_uno": "Funzione",
+      "Risposta_due": "Metodo",
+      "Risposta_tre": "Conversione",
+      "Risposta_quattro": "Ciclo",
+      "Risposta_corretta": "Metodo"
     }
 
   ]
-
 }

@@ -20,7 +20,14 @@ html, body {
   width: 100%;
   height: 100%;
   position: relative;
-  top: -2%;
+}
+
+.disabled {
+
+  pointer-events: none;
+  opacity: 0.5;
+  cursor: not-allowed;
+
 }
 
 /* Keep the rest of your CSS unchanged */

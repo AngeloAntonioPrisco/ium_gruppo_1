@@ -12,7 +12,17 @@
   width: 100%;
   height: 720px;
   position: absolute;
-  top: -2%;
+}
+
+.pdf{
+
+  top: 15%;
+  left: 38%;
+  border: #1a1a1a solid 1px;
+  position: absolute;
+  width: 416px;
+  height: 588px;
+
 }
 
 .home-utente .barra-motore-di {

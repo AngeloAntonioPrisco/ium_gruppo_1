@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="../css/globals.css" />
+  <link rel="stylesheet" href="../css/home-utente.css" />
+  <link rel="stylesheet" href="../css/sidebar.css" />
+  <script src = "../js/main.js"></script>
+</head>
+
+<body>
+
+<div class="home-utente">
+
+  <div class="div">
+
+    <header class="header">
+
+      <div class="div-wrapper" style="background-color: #e5e5e5; width: 377px; height: 24px; left: 38%; border-color: transparent; border-radius: 10px;">
+
+        <input type="text" style="background-color: transparent; position: relative; border: transparent; width: 100%; height: 100%;">
+        <img src="../resources/Component%201search.png" style="position: absolute; left: 90%; height: 103%;" onclick="cerca()">
+
+      </div>
+
+    </header>
+
+    <div class="pdf"></div>
+
+    <div id="nav" style="height: 100%; position: absolute; top: 0%; border: transparent; z-index: 1"></div>
+
+  </div>
+
+</div>
+
+</body>
+
+<script>
+
+  window.onload = (event) => {
+
+    navbar();
+
+  };
+
+</script>
+
+</html>
