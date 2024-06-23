@@ -149,7 +149,7 @@ function navOpen(flagIcon){
         "        <ul>" +
         "            <li><button onclick='exit()'><img src=\"../resources/img-sidebar/Logout_Button.png\" width=\"12px\"/><p>Esci</p></button></li>" +
         "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\" onclick='yellowFilterButton(this)'/><p>Modalità lettura</p></button></li>" +
-        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/><p>Filtro daltonismo</p></button></li>" +
+        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\" onclick='daltonismo(this)'/><p>Filtro daltonismo</p></button></li>" +
         "        </ul>" +
         "    </div>" +
         "</nav>";
@@ -177,7 +177,7 @@ function navClose(flagIcon){
         "        <ul>" +
         "            <li><button onclick='exit()'><img src=\"../resources/img-sidebar/Logout_Button.png\" width=\"12px\"/></button></li>" +
         "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\" onclick='yellowFilterButton(this)'/></button></li>" +
-        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/></button></li>" +
+        "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\" onclick='daltonismo(this)'/></button></li>" +
         "        </ul>" +
         "    </div>" +
         "</nav>";
@@ -209,7 +209,7 @@ function navbar(flagIcon){
                 "        <ul>" +
                 "            <li><button onclick='exit()'><img src=\"../resources/img-sidebar/Logout_Button.png\" width=\"12px\"/></button></li>" +
                 "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\" onclick='yellowFilterButton(this)'/></button></li>" +
-                "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\"/></button></li>" +
+                "            <li><button><img src=\"../resources/img-sidebar/Toggle_Button_Off.png\" width=\"20px\" onclick='daltonismo(this)'/></button></li>" +
                 "        </ul>" +
                 "    </div>" +
                 "</nav>";
@@ -267,6 +267,42 @@ function yellowFilterButton(elemento){
 
         yellowFilter.style.display = 'none';
         elemento.src = "../resources/img-sidebar/Toggle_Button_Off.png";
+
+    }
+
+}
+
+function daltonismo(elemento){
+
+    if (elemento.classList.contains("pressed")){
+
+        elemento.src = "../resources/img-sidebar/Toggle_Button_Off.png";
+        elemento.classList.remove("pressed");
+
+        if (window.location.pathname.indexOf('/ium_gruppo_1/src/it.unisa.educae/html/risultati-test.html') !== -1){
+
+            for (let answer of document.querySelectorAll(".correct")) {
+
+                answer.style.backgroundColor = "#4caf50";
+
+            }
+
+        }
+
+    } else {
+
+        elemento.classList.add("pressed");
+        elemento.src = "../resources/img-sidebar/Toggle_Button_On.png";
+
+        if (window.location.pathname.indexOf('/ium_gruppo_1/src/it.unisa.educae/html/risultati-test.html') !== -1){
+
+            for (let answer of document.querySelectorAll(".correct")) {
+
+                answer.style.backgroundColor = "#218EFF";
+
+            }
+
+        }
 
     }
 

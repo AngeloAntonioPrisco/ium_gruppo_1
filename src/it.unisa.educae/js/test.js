@@ -128,7 +128,7 @@ function finish(){
     correctAnswers = [];
     givedAnswers = [];
 
-    window.location.href = "../html/risultati-test.html"
+    window.location.href = "../html/risultati-test.html";
 
 }
 
